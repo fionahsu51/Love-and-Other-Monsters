@@ -2,20 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Ink.Runtime;
 
 //Tutorial from here https://www.youtube.com/watch?v=8oTYabhj248&ab_channel=BMo
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
-    public string[] lines;
+    public TextAsset inkFile;
+    
+    private Story currentStory;
+    private string currentLine;
+    
+    //public string[] lines;
     public float textSpeed;
-    private int index;
+    //private int index;
+    private bool dialoguePlaying;
 
     // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        StartDialogue(inkFile);
     }
 
     // Update is called once per frame
@@ -23,36 +30,57 @@ public class Dialogue : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            if(textComponent.text == lines[index])
+            if(textComponent.text == currentLine)
             {
-                NextLine();
+                continueStory();
             }
 
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[index];
+                textComponent.text = currentLine;
             }
         }
     }
 
-    void StartDialogue()
+    public void StartDialogue(TextAsset inkJSON)
     {
-        index = 0;
-        StartCoroutine(TypeLine());
+        dialoguePlaying = true;
+        currentStory = new Story(inkJSON.text);
+        //StartCoroutine(TypeLine());
+        continueStory();
+        
+
+        //StartCoroutine(TypeLine());
+    }
+
+    void continueStory(){
+        if(currentStory.canContinue){
+            textComponent.text = "";
+            currentLine = currentStory.Continue();
+            StartCoroutine(TypeLine());
+        }else{
+            endDialogue();
+        }
+    }
+
+    void endDialogue(){
+        dialoguePlaying = false;
+        gameObject.SetActive(false);
+        textComponent.text = "";
     }
 
     //Types each character out one by one
     IEnumerator TypeLine()
     {
-        foreach(char c in lines[index].ToCharArray())
+        foreach(char c in currentLine.ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
     }
 
-    void NextLine()
+    /*void NextLine()
     {
         if(index < lines.Length - 1)
         {
@@ -64,5 +92,5 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }
+    }*/
 }

@@ -825,8 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1859382}
-  lines:
-  - Where should I visit today?
+  inkFile: {fileID: 4900000, guid: 6d87e38159aafe840991c5657561888b, type: 3}
   textSpeed: 0.03
 --- !u!114 &881985201
 MonoBehaviour:
