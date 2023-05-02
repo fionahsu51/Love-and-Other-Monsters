@@ -560,5 +560,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Box
       objectReference: {fileID: 0}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: inkFile
+      value: 
+      objectReference: {fileID: 4900000, guid: b4e65bc2d327a864bb41ba398def457f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
