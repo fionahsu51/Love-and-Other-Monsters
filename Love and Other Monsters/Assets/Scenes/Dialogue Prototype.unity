@@ -412,22 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 113205453}
-  lines:
-  - "Writing: \u201CVampire Girl\u201D"
-  - Was a devout Christian before she was turned, after becoming immortal, the pain
-    of living and how life is suffering tore her down and she slowly loses her faith
-    / loses her faith when her lover dies
-  - Lost faith, but her new faith is in helping people, healing and taking care of
-    ppl by making potions
-  - "Always carries broken crucifix, broke it after her lover died but keeps it with
-    her at all times, doesn\u2019t hurt her as a vampire because it is broken "
-  - maybe you read a journal entry where vampire girl laments on how after her lover
-    / SG's sister died, she prayed and prayed for her to survive and her faith was
-    shattered after that
-  - "what if vampire girl is sometimes at war with herself to try and summon her
-    dead lover to speak with her, but knows that the pain of living and bringing
-    her lover back to life isn\u2019t worth being selfish, yet she still thinks about
-    it from time to time"
+  inkFile: {fileID: 4900000, guid: b4e65bc2d327a864bb41ba398def457f, type: 3}
   textSpeed: 0.03
 --- !u!114 &138433289
 MonoBehaviour:
