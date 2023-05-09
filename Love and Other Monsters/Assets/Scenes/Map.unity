@@ -851,6 +851,14 @@ PrefabInstance:
       propertyPath: inkFile
       value: 
       objectReference: {fileID: 4900000, guid: 6d87e38159aafe840991c5657561888b, type: 3}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
 --- !u!224 &1290667838 stripped
