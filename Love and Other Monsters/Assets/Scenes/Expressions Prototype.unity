@@ -475,6 +475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1378962911}
   - component: {fileID: 1378962910}
+  - component: {fileID: 1378962912}
   m_Layer: 0
   m_Name: Speaker
   m_TagString: Untagged
@@ -523,7 +524,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2131241793, guid: 54ad7ade2dd7c9e47a7781ae1f403892, type: 3}
+  m_Sprite: {fileID: 1353904791, guid: 54ad7ade2dd7c9e47a7781ae1f403892, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -549,6 +550,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1378962912
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378962909}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da114a7bd08b2eb43af0265488c34ac4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &8669868724353596211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -647,6 +668,18 @@ PrefabInstance:
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: inkFile
       value: 
-      objectReference: {fileID: 4900000, guid: b4e65bc2d327a864bb41ba398def457f, type: 3}
+      objectReference: {fileID: 4900000, guid: 0286586934d9e2741b8cf1bbf7366554, type: 3}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: speakerAnimator
+      value: 
+      objectReference: {fileID: 1378962912}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}

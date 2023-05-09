@@ -125,14 +125,14 @@ TextureImporter:
         width: 591
         height: 881
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17726e814d25714aa461fb283d8ba57
-      internalID: -2131241793
+      spriteID: 0d4ad4ec4fe0ede429bbb657955678c0
+      internalID: 1353904791
       vertices: []
       indices: 
       edges: []
@@ -146,14 +146,14 @@ TextureImporter:
         width: 515
         height: 869
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5047e1d1aa538994e91dafbaa1413609
-      internalID: 1655616807
+      spriteID: 30141e43957428c4389754f098f54d1e
+      internalID: -1603125976
       vertices: []
       indices: 
       edges: []
@@ -167,14 +167,14 @@ TextureImporter:
         width: 400
         height: 860
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26395ce53b10e38479a717f5e33b803e
-      internalID: 1889354244
+      spriteID: 8cbaf2704bfd87e41bb3541e1eb121c1
+      internalID: -200928296
       vertices: []
       indices: 
       edges: []
@@ -188,14 +188,14 @@ TextureImporter:
         width: 406
         height: 857
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2480794862e0fd9478267ae5ecafb4d4
-      internalID: 1669025281
+      spriteID: 10022c6a4ff896748bafd8585bc7f835
+      internalID: 1558243148
       vertices: []
       indices: 
       edges: []
@@ -209,14 +209,14 @@ TextureImporter:
         width: 571
         height: 856
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f7d7b7854c1fa49a1f86e04c83ec10
-      internalID: 870244152
+      spriteID: e70df884cbf648c48893074dfe9b9a1e
+      internalID: 1310789693
       vertices: []
       indices: 
       edges: []
@@ -230,14 +230,14 @@ TextureImporter:
         width: 589
         height: 868
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c36e70a567a3b4fa94c6510d9a4503
-      internalID: -649905383
+      spriteID: 9bb58c48282ae6842888d459eb4b4a37
+      internalID: 469663451
       vertices: []
       indices: 
       edges: []
@@ -251,14 +251,14 @@ TextureImporter:
         width: 586
         height: 857
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c1a9055cf70ae14bbaf0a97bb384abf
-      internalID: -301570164
+      spriteID: cf708c6bca97a4a4082bd0c72b13ffe0
+      internalID: -277951662
       vertices: []
       indices: 
       edges: []
@@ -272,14 +272,35 @@ TextureImporter:
         width: 473
         height: 873
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da56f9749bec4b9468389d360a1a1b5a
-      internalID: 139957150
+      spriteID: 49753a9a51813144ba844310048a28a8
+      internalID: -178954562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dolores_excited
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 19
+        width: 465
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3c99b1a471bfb4c8ee32126550f7f2
+      internalID: 243396813
       vertices: []
       indices: 
       edges: []
@@ -295,14 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dolores_neutral: -2131241793
-      dolores_frustrated: 870244152
-      dolores_blushing: 1655616807
-      dolores_unimpressed: -301570164
-      dolores_shocked: -649905383
-      dolores_apprehensive: 1889354244
-      dolores_flirty: 1669025281
-      dolores_upset: 139957150
+      dolores_neutral: 1353904791
+      dolores_frustrated: 1310789693
+      dolores_blushing: -1603125976
+      dolores_unimpressed: -277951662
+      dolores_excited: 243396813
+      dolores_shocked: 469663451
+      dolores_apprehensive: -200928296
+      dolores_flirty: 1558243148
+      dolores_upset: -178954562
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

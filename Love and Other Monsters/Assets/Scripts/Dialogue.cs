@@ -25,6 +25,13 @@ public class Dialogue : MonoBehaviour
     //private int index;
     public bool dialoguePlaying;
 
+    //Speaker constants
+
+    private const string SPEAKER_TAG = "speaker";
+    private const string PORTRAIT_TAG = "portrait";
+
+    public Animator speakerAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,8 +82,33 @@ public class Dialogue : MonoBehaviour
             currentLine = currentStory.Continue();
             StartCoroutine(TypeLine());
             DisplayChoices();
+            HandleTags(currentStory.currentTags);
         }else{
             endDialogue();
+        }
+    }
+
+    private void HandleTags(List<string> tags)
+    {
+        foreach(string tag in tags){
+            string [] tagSplit = tag.Split(':');
+            Debug.Log(tagSplit.Length);
+
+            string key = tagSplit[0].Trim();
+            string val = tagSplit[1].Trim(); 
+
+            switch(key){
+                case SPEAKER_TAG:
+                    Debug.Log(val);
+                    break;
+                case PORTRAIT_TAG:
+                    Debug.Log(val);
+                    speakerAnimator.Play(val);
+                    break;
+                default:
+                    Debug.Log("Tag not handled");
+                    break;
+            }
         }
     }
 
