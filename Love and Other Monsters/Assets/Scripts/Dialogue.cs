@@ -13,6 +13,7 @@ public class Dialogue : MonoBehaviour
     
     private Story currentStory;
     private string currentLine;
+    private DialogueVariables dialogueVariables;
 
     //choices
     public GameObject [] choices;
@@ -37,7 +38,7 @@ public class Dialogue : MonoBehaviour
             choiceText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
-
+        dialogueVariables = new DialogueVariables();
         StartDialogue(inkFile);
         
     }
@@ -64,11 +65,8 @@ public class Dialogue : MonoBehaviour
     {
         dialoguePlaying = true;
         currentStory = new Story(inkJSON.text);
-        //StartCoroutine(TypeLine());
+        dialogueVariables.StartListening(currentStory);
         continueStory();
-        
-
-        //StartCoroutine(TypeLine());
     }
 
     void continueStory(){
@@ -83,6 +81,7 @@ public class Dialogue : MonoBehaviour
     }
 
     void endDialogue(){
+        dialogueVariables.StopListening(currentStory);
         dialoguePlaying = false;
         gameObject.SetActive(false);
         textComponent.text = "";

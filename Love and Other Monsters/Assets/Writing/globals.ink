@@ -1,0 +1,1 @@
+VAR woman_selection = ""

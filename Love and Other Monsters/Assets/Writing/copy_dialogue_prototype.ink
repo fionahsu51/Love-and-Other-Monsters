@@ -2,6 +2,7 @@ INCLUDE globals.ink
 
 Who is best girl?
 * Aveline. Vampires are hot.
+    ~ woman_selection = "Aveline"
     You're so right. Vampires are so hot.
     But what's your favorite thing about Aveline?
     ** Her tragic backstory.
@@ -13,6 +14,7 @@ Who is best girl?
 * Dolores. She's so lively!
     Poor choice of words...
     How will you let her story play out?
+    ~ woman_selection = "Dolores"
     ** Let her become a ghost!
         I'm still wondering how that'll play out.
         The logistics and everything...
@@ -22,12 +24,14 @@ Who is best girl?
         Right?? What's wrong with being human?
 * Freya.......big...woman...
     unga bunga
+    ~ woman_selection = "Freya"
     ** unga
         unga bunga
     ** bunga
         sjdhgkjshfdglkjhdkalJSDH
     ** I want her to pick me up and ***** my **** until **** and th
         chill
+        
 
 
 
