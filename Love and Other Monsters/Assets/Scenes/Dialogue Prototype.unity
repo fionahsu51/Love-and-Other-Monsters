@@ -831,6 +831,14 @@ PrefabInstance:
       propertyPath: inkFile
       value: 
       objectReference: {fileID: 4900000, guid: 1ed9005e37774e64e8e28e7cac0be661, type: 3}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 8669868724328733694, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 8669868724328733695, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 132

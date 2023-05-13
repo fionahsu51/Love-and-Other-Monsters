@@ -10,9 +10,11 @@ public class TestTextDisplay : MonoBehaviour
     GameObject dialogueBox;
     string old = "Your previous selection was ";
     string selection = "Your new selection is ";
+
     // Start is called before the first frame update
     void Start()
     {
+        // Display the previous woman choice
         text = PlayerPrefs.GetString("womanSelection");
         textComponent.text = old + text;
         dialogueBox = GameObject.Find("/Canvas/Dialogue Box");
@@ -21,6 +23,7 @@ public class TestTextDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Display the new woman choice!
         if (!dialogueBox.activeSelf)
         {
             text = PlayerPrefs.GetString("womanSelection");
