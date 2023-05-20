@@ -23,7 +23,7 @@ public class LoadingNewScene : MonoBehaviour
 
     IEnumerator AudioBuffer()
     {
-        yield return new WaitForSeconds(2.2f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneIndex);
     }
 }

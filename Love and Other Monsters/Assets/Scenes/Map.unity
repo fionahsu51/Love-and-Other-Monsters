@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 279494213}
 --- !u!60 &178058411
 PolygonCollider2D:
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 755757236}
 --- !u!212 &842736213
 SpriteRenderer:
@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 109039477}
 --- !u!60 &899289254
 PolygonCollider2D:
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 1800302614}
 --- !u!1001 &1290667837
 PrefabInstance:
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 1783143986}
 --- !u!60 &1452310148
 PolygonCollider2D:
@@ -2035,7 +2035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 1946357521}
 --- !u!60 &1835801570
 PolygonCollider2D:
@@ -2407,7 +2407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e59f8dd84240459a2fe1e7a674f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 5
+  SceneIndex: 4
   enlarged: {fileID: 1408238441}
 --- !u!212 &2134769208
 SpriteRenderer:
