@@ -29,8 +29,10 @@ public class Dialogue : MonoBehaviour
 
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
+    private const string FORMAT_TAG = "format";
 
     public Animator speakerAnimator;
+    public Animator portraitAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -100,10 +102,23 @@ public class Dialogue : MonoBehaviour
             switch(key){
                 case SPEAKER_TAG:
                     Debug.Log(val);
+                    speakerAnimator.Play(val);
                     break;
                 case PORTRAIT_TAG:
                     Debug.Log(val);
-                    speakerAnimator.Play(val);
+                    portraitAnimator.Play(val);
+                    break;
+                case FORMAT_TAG:
+                    Debug.Log(val);
+                    if(val == "italic"){
+                        textComponent.fontStyle = FontStyles.Italic;
+                    }else if(val == "bold"){
+                        textComponent.fontStyle = FontStyles.Bold;
+                    }else if(val == "none"){
+                        textComponent.fontStyle &= ~FontStyles.Bold;
+                        textComponent.fontStyle &= ~FontStyles.Italic;
+                    }
+                    
                     break;
                 default:
                     Debug.Log("Tag not handled");
@@ -152,6 +167,7 @@ public class Dialogue : MonoBehaviour
 
     public void MakeChoice(int choiceIndex){ 
         currentStory.ChooseChoiceIndex(choiceIndex);
+        currentStory.Continue();
         continueStory();
     }
 
