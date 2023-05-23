@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Ink.Runtime;
+using UnityEngine.SceneManagement;
 
 //Tutorial from here https://www.youtube.com/watch?v=8oTYabhj248&ab_channel=BMo
 //https://www.youtube.com/watch?v=vY0Sk93YUhA&list=PL3viUl9h9k78KsDxXoAzgQ1yRjhm7p8kl&index=2
@@ -30,9 +31,11 @@ public class Dialogue : MonoBehaviour
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
     private const string FORMAT_TAG = "format";
+    private const string BACKGROUND_TAG = "bg";
 
     public Animator speakerAnimator;
     public Animator portraitAnimator;
+    public Animator bgAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -118,7 +121,10 @@ public class Dialogue : MonoBehaviour
                         textComponent.fontStyle &= ~FontStyles.Bold;
                         textComponent.fontStyle &= ~FontStyles.Italic;
                     }
-                    
+                    break;
+                case BACKGROUND_TAG:
+                    Debug.Log(val);
+                    bgAnimator.Play(val);
                     break;
                 default:
                     Debug.Log("Tag not handled");
@@ -132,6 +138,7 @@ public class Dialogue : MonoBehaviour
         dialoguePlaying = false;
         gameObject.SetActive(false);
         textComponent.text = "";
+        SceneManager.LoadScene(0);
     }
 
     //Types each character out one by one

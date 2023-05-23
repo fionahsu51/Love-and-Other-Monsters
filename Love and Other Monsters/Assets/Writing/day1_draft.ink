@@ -1,4 +1,4 @@
-What if it eats you? #portrait:none #format:italic
+What if it eats you? #portrait:none #format:italic #bg: intro_carriage
 
 The ride to Castelonia is just as I remember it. Rolling hills and nothing else for miles on end on that winding dirt road connecting the town to the rest of the world.
 
@@ -6,7 +6,7 @@ Ten years ago, I looked out the carriage window through teary eyes, drifting in 
 
 I don’t sleep this time.
 
-Here we go, miss. #format:none
+Here we go, miss. #format:none #bg: hawthorne_driveway
 
 Thank you. #portrait:victoria
 
@@ -26,7 +26,7 @@ Forgive me. I only mean—you’re earlier than I expected. #portrait:none #form
 
 I nod, holding up the letter. #portrait:none #format:italic
 
-I left as soon as I heard. #portrait:victoria
+I left as soon as I heard. #portrait:victoria #format:none
 
 Freya opens her mouth, then snaps it shut. She furtively glances at her father. An unreadable look passes between them. #portrait:none #format:italic
 
@@ -38,7 +38,7 @@ Thank you. #portrait:victoria
 
 Claudius looks expectantly at Freya. #portrait:none #format:italic
 
-Um. Sorry for your loss. #portrait:freya
+Um. Sorry for your loss. #portrait:freya #format:none
 
 I give an awkward nod. The frantic mix of emotions that the letter brought—grief, shock, confusion, anger—has settled into a strange numbness, and I’d like to keep it that way for now. #portrait:none #format:italic
 
@@ -50,7 +50,7 @@ Uh... #portrait:freya
 
 Claudius raises his eyebrows at her and Freya huffs quietly. #portrait:none #format:italic
 
-Of course. It would be my pleasure. #portrait:freya 
+Of course. It would be my pleasure. #portrait:freya #format:none
 
 I hold back a snort—it’s clear pleasure is the last thing on her mind. #portrait:none #format:italic
 

@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Expressions Prototype.unity
     guid: 2a5a65171cbb15c4893c7690c1e0712d
+  - enabled: 1
+    path: Assets/Scenes/Day 1.unity
+    guid: b1b53d51e43fc934bbaa1aee7e10820d
   m_configObjects: {}
