@@ -15,6 +15,8 @@ public class Dialogue : MonoBehaviour
     private Story currentStory;
     private string currentLine;
     private DialogueVariables dialogueVariables;
+    public bool endScene;
+    public int sceneIndex;
 
     //choices
     public GameObject [] choices;
@@ -138,7 +140,9 @@ public class Dialogue : MonoBehaviour
         dialoguePlaying = false;
         gameObject.SetActive(false);
         textComponent.text = "";
-        SceneManager.LoadScene(0);
+        if(endScene){
+            SceneManager.LoadScene(sceneIndex);
+        }
     }
 
     //Types each character out one by one

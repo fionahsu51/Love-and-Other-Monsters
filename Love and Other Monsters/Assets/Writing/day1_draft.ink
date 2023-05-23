@@ -38,7 +38,7 @@ Thank you. #portrait:victoria
 
 Claudius looks expectantly at Freya. #portrait:none #format:italic
 
-Um. Sorry for your loss. #portrait:freya #format:none
+Um. Sorry for your loss. #portrait:freya #format:none #speaker:freya_neutral
 
 I give an awkward nod. The frantic mix of emotions that the letter brought—grief, shock, confusion, anger—has settled into a strange numbness, and I’d like to keep it that way for now. #portrait:none #format:italic
 
@@ -46,11 +46,11 @@ Thankfully, Claudius, brisk as always, doesn’t dwell on the subject.
 
 I’m sure much has changed since your departure. Freya, my dear, why don’t you take the carriage and show Victoria around the town? I have some business to take care of. #format:none
 
-Uh... #portrait:freya
+Uh... #portrait:freya #speaker:freya_reluctant
 
 Claudius raises his eyebrows at her and Freya huffs quietly. #portrait:none #format:italic
 
-Of course. It would be my pleasure. #portrait:freya #format:none
+Of course. It would be my pleasure. #portrait:freya #format:none #speaker:freya_polite
 
 I hold back a snort—it’s clear pleasure is the last thing on her mind. #portrait:none #format:italic
 
@@ -60,9 +60,9 @@ But the thought of entering Father’s manor, seeing that old rocking chair sitt
 
 Not to mention, for all her reluctance, something tells me Freya could use a moment away from her father’s watchful gaze.
 
-Shall we? #portrait:freya #format:none
+Shall we? #portrait:freya #format:none #speaker:freya_reluctant
 
-She jerks her thumb towards the carriage. #portrait:none #format:italic
+She jerks her thumb towards the carriage. #portrait:none #format:italic #speaker:freya_awkward
 
 I nod and follow Freya as Claudius turns back towards the house. 
 
@@ -78,7 +78,7 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
     
     Oh. Thanks. #portrait:victoria #format:none
     
-    Uh huh. #portrait:freya 
+    Uh huh. #portrait:freya #speaker:freya_blushing
     
     She jumps into the seat. The foot iron makes it easy to climb in, but I don’t protest when Freya reaches out a gloved hand to help me up. #portrait:none #format:italic
 	
@@ -86,7 +86,7 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
 
     I’ve got it, thanks. #portrait:victoria #format:none
     
-    Freya shrugs. #portrait:none #format:italic
+    Freya shrugs. #portrait:none #format:italic #speaker:freya_uncertain
     
     Suit yourself. #portrait:freya #format:none
     
@@ -94,7 +94,7 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
     
     I try to appear unbothered when I finally slide into the seat next to Freya, though I’m sure she can hear how hard I’m breathing from the exertion.
 
-	All set? #speaker:freya #format:none
+	All set? #portrait:freya #format:none
 
 I nod, Freya flicks the reins, and we’re off. #portrait:none #format:italic
 

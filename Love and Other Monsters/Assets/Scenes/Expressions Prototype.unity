@@ -833,6 +833,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 0286586934d9e2741b8cf1bbf7366554, type: 3}
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: endScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: speakerAnimator
       value: 
       objectReference: {fileID: 1079465685}

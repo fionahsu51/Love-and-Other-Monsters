@@ -854,9 +854,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4900000, guid: 3597d81743e782342abd93d1991dc982, type: 3}
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: endScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: bgAnimator
       value: 
       objectReference: {fileID: 727736424}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: sceneIndex
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: speakerAnimator
       value: 
