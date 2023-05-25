@@ -39,6 +39,9 @@ public class Dialogue : MonoBehaviour
     public Animator portraitAnimator;
     public Animator bgAnimator;
 
+    public AudioClip[] audioSources;
+    private AudioSource pageFlipSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -90,7 +93,10 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
             DisplayChoices();
             HandleTags(currentStory.currentTags);
-        }else{
+            ///pageFlipSFX.clip = audioSources[Random.Range(0, audioSources.Length)];
+           // pageFlipSFX.Play();
+        }
+        else{
             endDialogue();
         }
     }
