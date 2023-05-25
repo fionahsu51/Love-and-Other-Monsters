@@ -45,8 +45,8 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pageFlipSFX = GetComponent<AudioSource>();
         textComponent.text = string.Empty;
-
         //get choices if there are choices
         choiceText = new TextMeshProUGUI[choices.Length];
         int index = 0;
@@ -68,6 +68,11 @@ public class Dialogue : MonoBehaviour
             if(currentStory.currentChoices.Count == 0 && textComponent.text == currentLine)
             {
                 continueStory();
+                if(gameObject.activeSelf)
+                {
+                    pageFlipSFX.clip = audioSources[Random.Range(0, audioSources.Length)];
+                    pageFlipSFX.Play();
+                }
             }
 
             else
@@ -93,8 +98,6 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
             DisplayChoices();
             HandleTags(currentStory.currentTags);
-            ///pageFlipSFX.clip = audioSources[Random.Range(0, audioSources.Length)];
-           // pageFlipSFX.Play();
         }
         else{
             endDialogue();

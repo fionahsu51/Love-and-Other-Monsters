@@ -394,6 +394,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31190682}
     m_Modifications:
+    - target: {fileID: 8669868722866630175, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1152
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669868723460043908, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1152
+      objectReference: {fileID: 0}
+    - target: {fileID: 8669868723707335235, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1152
+      objectReference: {fileID: 0}
     - target: {fileID: 8669868724215162932, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -502,6 +514,10 @@ PrefabInstance:
       propertyPath: bgAnimator
       value: 
       objectReference: {fileID: 151581052}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: sceneIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: speakerAnimator
       value: 
