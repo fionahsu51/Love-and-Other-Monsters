@@ -187,7 +187,7 @@ public class Dialogue : MonoBehaviour
 
     public void MakeChoice(int choiceIndex){ 
         currentStory.ChooseChoiceIndex(choiceIndex);
-        currentStory.Continue();
+        //currentStory.Continue();
         continueStory();
     }
 

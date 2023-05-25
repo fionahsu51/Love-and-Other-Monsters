@@ -232,6 +232,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1046383849553822682, guid: e05fff8b155a4374889e28b0192b46be, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1046383849553822682, guid: e05fff8b155a4374889e28b0192b46be, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1046383849553822682, guid: e05fff8b155a4374889e28b0192b46be, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1046383849553822692, guid: e05fff8b155a4374889e28b0192b46be, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -510,6 +522,10 @@ PrefabInstance:
       propertyPath: inkFile
       value: 
       objectReference: {fileID: 4900000, guid: 3597d81743e782342abd93d1991dc982, type: 3}
+    - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: endScene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8669868724215162939, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: bgAnimator
       value: 
