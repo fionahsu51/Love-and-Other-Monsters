@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 110
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 221
     height: 664
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -243,14 +243,14 @@ MonoBehaviour:
     y: 664
     width: 1546
     height: 283
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,9 +343,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: aad1f950d84e4064d8cbc61ea3cdeeba, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: da114a7bd08b2eb43af0265488c34ac4, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 2698416902205739379, guid: aad1f950d84e4064d8cbc61ea3cdeeba, type: 2}
+  - m_Target: {fileID: -6831341128701245901, guid: da114a7bd08b2eb43af0265488c34ac4, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 908.47205, y: 1035.1658, z: -13.809937}
+    m_Target: {x: 8.449966, y: 2.7029266, z: 43.397823}
     speed: 2
-    m_Value: {x: 908.47205, y: 1035.1658, z: -13.809937}
+    m_Value: {x: 8.305232, y: 2.3266182, z: 43.01477}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1600.6067
+    m_Target: 18.032755
     speed: 2
-    m_Value: 1600.6067
+    m_Value: 17.256226
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -718,7 +718,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9220ffff3621ffffa821ffff0a22ffff1022ffff6822ffffc022ffff1a23ffff2423ffffec24ffff9025ffffea27ffff4c28ffff5428ffffae28ffff0a29ffff6629ffff7829fffff03dffff943effff0e3fffff703fffff763fffffce3fffff2640ffff8040ffff8a40ffffc242ffff6643ffffca45ffff2e46ffff3846ffff9446fffff246ffff5047ffff6447ffff504fffff6863ffff9e84fffff489ffff728dffff389bffff24a7ffffceabffff60cc0000b0eb0000e2eb00002aee00006aee0000baef00006cfc0000
+      m_ExpandedIDs: a65effff4a5fffffd45fffff3660ffff3c60ffff9460ffffec60ffff4661ffff5061ffff0e64ffffb264ffff2467ffff8667ffff8e67ffffe867ffff4468ffffa068ffffb268ffff8497fffff49cffff189effffc8f5ffff2cfbffff0e710000eaa00000cea10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -803,7 +803,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -875,23 +875,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Writing
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Writing
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mikau\Desktop\Homework\SPRING23\CMPM172\love-and-other-monsters\Love
     and Other Monsters
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 194}
-    m_SelectedIDs: 1acc0000
-    m_LastClickedID: 52250
-    m_ExpandedIDs: 0000000006cc000008cc0000f6de000000ca9a3b
+    scrollPos: {x: 0, y: 82}
+    m_SelectedIDs: 44700000
+    m_LastClickedID: 28740
+    m_ExpandedIDs: 000000001c7000003870000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -919,7 +919,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000001c700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -944,8 +944,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 1693ffff
+    m_LastClickedInstanceID: -27882
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000084600000000000005e9a00003ef00000
     m_RenameOverlay:

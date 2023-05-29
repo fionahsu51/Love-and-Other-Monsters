@@ -31,11 +31,20 @@ public class Dialogue : MonoBehaviour
     //Speaker constants
 
     private const string SPEAKER_TAG = "speaker";
+    private const string SPEAKER_LEFT_TAG = "speaker-l";
+    private const string SPEAKER_C_LEFT_TAG = "speaker-cl";
+    private const string SPEAKER_CENTER_TAG = "speaker-c";
+    private const string SPEAKER_C_RIGHT_TAG = "speaker-cr";
+    private const string SPEAKER_RIGHT_TAG = "speaker-r";
     private const string PORTRAIT_TAG = "portrait";
     private const string FORMAT_TAG = "format";
     private const string BACKGROUND_TAG = "bg";
 
     public Animator speakerAnimator;
+    public Animator speakerLAnimator;
+    public Animator speakerCLAnimator;
+    public Animator speakerCRAnimator;
+    public Animator speakerRAnimator;
     public Animator portraitAnimator;
     public Animator bgAnimator;
 
@@ -117,6 +126,26 @@ public class Dialogue : MonoBehaviour
                 case SPEAKER_TAG:
                     Debug.Log(val);
                     speakerAnimator.Play(val);
+                    break;
+                case SPEAKER_CENTER_TAG:
+                    Debug.Log(val);
+                    speakerAnimator.Play(val);
+                    break;
+                case SPEAKER_LEFT_TAG:
+                    Debug.Log(val);
+                    speakerLAnimator.Play(val);
+                    break;
+                case SPEAKER_C_LEFT_TAG:
+                    Debug.Log(val);
+                    speakerCLAnimator.Play(val);
+                    break;
+                case SPEAKER_C_RIGHT_TAG:
+                    Debug.Log(val);
+                    speakerCRAnimator.Play(val);
+                    break;
+                case SPEAKER_RIGHT_TAG:
+                    Debug.Log(val);
+                    speakerRAnimator.Play(val);
                     break;
                 case PORTRAIT_TAG:
                     Debug.Log(val);

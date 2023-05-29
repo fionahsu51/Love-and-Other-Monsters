@@ -12,7 +12,8 @@ What if it eats you?
 
 The ride to Castelonia is just as I remember it. Rolling hills and nothing else for miles on end on that winding dirt road connecting the town to the rest of the world. #format:none #bg: intro_carriage
 
-Ten years ago, I looked out the carriage window through teary eyes, drifting in and out of sleep. Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all. 
+Ten years ago, I looked out the carriage window through teary eyes, drifting in and out of sleep. 
+Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all. 
 
 I don’t sleep this time.
 
@@ -20,27 +21,27 @@ Here we go, miss. #bg: hawthorne_driveway
 
 Thank you. #portrait:victoria
 
-I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #portrait:none
+I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #portrait:none #speaker-cr:claudius_neutral #speaker-cl:freya_neutral
 
 They mirror each other almost perfectly in posture—arms crossed, back straight, brows furrowed—though I notice Freya has managed to surpass even her father in height. 
 Not terribly surprising, remembering how much I struggled to keep up with her long strides on those rare occasions when she was allowed to come play in Father’s yard. 
-Her temperamental nature meant we were always at each other’s throats, jumping from one inconsequential fight to the next, though her sister Delia would intervene before anyone threw a punch. Usually.
+Freya's temperamental nature meant we were always at each other’s throats, jumping from one inconsequential fight to the next, though her sister Delia would intervene before anyone threw a punch. Usually.
 
 Freya sees me first, eyes widening, and whispers something to Claudius, who whips around.  
 
-V-Victoria? What are you doing here? #portrait:none #speaker:claudius_surprised
+V-Victoria? What are you doing here? #portrait:none #speaker-cr:claudius_surprised
 
 For a moment, Claudius looks like he’s seen a ghost. I shift uncertainly as he quickly regains his composure. #portrait:none
 
-Forgive me. I only mean—you’re earlier than I expected. #portrait:none #speaker:claudius_neutral
+Forgive me. I only mean—you’re earlier than I expected. #portrait:none #speaker-cr:claudius_neutral
 
 I nod, holding up the letter. #portrait:none
 
 I left as soon as I heard. #portrait:victoria
 
-Freya opens her mouth, then snaps it shut. She furtively glances at her father. An unreadable look passes between them. #portrait:none
+Freya opens her mouth, then snaps it shut. She furtively glances at her father. An unreadable look passes between them. #portrait:none #speaker-cl:freya_reluctant
 
-Ah. Well. Thank the stars you received it so quickly. #portrait:none #speaker:claudius_smile
+Ah. Well. Thank the stars you received it so quickly. #portrait:none #speaker-cr:claudius_smile
 
 My sincere condolences for your loss, Victoria. 
 
@@ -48,19 +49,19 @@ Thank you. #portrait:victoria
 
 Claudius looks expectantly at Freya. #portrait:none
 
-Um. Sorry for your loss. #portrait:freya #speaker:freya_neutral
+Um. Sorry for your loss. #portrait:freya #speaker-cl:freya_neutral #speaker-cr:claudius_smile
 
 I give an awkward nod. The frantic mix of emotions that the letter brought—grief, shock, confusion, anger—has settled into a strange numbness, and I’d like to keep it that way for now. #portrait:none
 
 Thankfully, Claudius, brisk as always, doesn’t dwell on the subject.
 
-I’m sure much has changed since your departure. Freya, my dear, why don’t you take the carriage and show Victoria around the town? I have some business to take care of. #speaker:claudius_smile
+I’m sure much has changed since your departure. Freya, my dear, why don’t you take the carriage and show Victoria around the town? I have some business to take care of. #speaker-cr:claudius_smile #speaker-cl:freya_neutral
 
-Uh... #portrait:freya #speaker:freya_reluctant
+Uh... #portrait:freya #speaker-cl:freya_reluctant #speaker-cr:claudius_smile
 
-Claudius raises his eyebrows at her and Freya huffs quietly. #portrait:none #speaker:claudius_neutral
+Claudius raises his eyebrows at her and Freya huffs quietly. #portrait:none #speaker-cl:freya_reluctant #speaker-cr:claudius_neutral
 
-Of course. It would be my pleasure. #portrait:freya #speaker:freya_polite
+Of course. It would be my pleasure. #portrait:freya #speaker-cl:freya_polite
 
 I hold back a snort—it’s clear pleasure is the last thing on her mind. #portrait:none
 
@@ -70,11 +71,11 @@ But the thought of entering Father’s manor, seeing that old rocking chair sitt
 
 Not to mention, for all her reluctance, something tells me Freya could use a moment away from her father’s watchful gaze.
 
-Shall we? #portrait:freya #speaker:freya_reluctant
+Shall we? #portrait:freya
 
-She jerks her thumb towards the carriage. #portrait:none #speaker:freya_awkward
+She jerks her thumb towards the carriage. #portrait:none #speaker-cl:freya_awkward 
 
-I nod and follow Freya as Claudius turns back towards the house. 
+I nod and follow Freya as Claudius turns back towards the house. #speaker-cl:default #speaker-c:freya_awkward #speaker-cr:default
 
 	Urgh— #portrait:victoria
 
