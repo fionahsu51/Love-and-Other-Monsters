@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class StartTextBehavior : MonoBehaviour
+public class IntroSequence : MonoBehaviour
 {
     public GameObject[] paragraphs;
     public GameObject indicator;
@@ -63,6 +64,7 @@ public class StartTextBehavior : MonoBehaviour
                 {
                     fadein = false;
                     fadeout = false;
+                    SceneManager.LoadScene(6);
                 }
 
                 else

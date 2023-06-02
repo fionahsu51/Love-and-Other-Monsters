@@ -1,13 +1,3 @@
-Victoria... #portrait: none #format:italic #bg: black
-This town is hungry. It eats people alive.
-I won’t let that happen to you.
-
-What do you mean?
-
-I’ll tell you everything when you’re older.
-
-But what if it eats you, Father?
-
 What if it eats you? 
 
 The ride to Castelonia is just as I remember it. Rolling hills and nothing else for miles on end on that winding dirt road connecting the town to the rest of the world. #format:none #bg: intro_carriage
