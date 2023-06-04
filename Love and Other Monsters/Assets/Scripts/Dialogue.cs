@@ -17,6 +17,7 @@ public class Dialogue : MonoBehaviour
     private DialogueVariables dialogueVariables;
     public bool endScene;
     public int sceneIndex;
+    int canAdvance = 1;
 
     //choices
     public GameObject [] choices;
@@ -72,7 +73,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && canAdvance == 1 && Time.timeScale != 0.0)
         {
             if(currentStory.currentChoices.Count == 0 && textComponent.text == currentLine)
             {
@@ -233,4 +234,8 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
         }
     }*/
+
+    public void setCanAdvance(){
+        canAdvance *= -1;
+    }
 }
