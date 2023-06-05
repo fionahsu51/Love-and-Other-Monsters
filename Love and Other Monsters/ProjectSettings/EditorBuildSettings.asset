@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: bb4b4155720d8fe4c84fd953c3968140
+  - enabled: 1
+    path: Assets/Scenes/Journal.unity
+    guid: d6a822c5136ff144c996797787361bbb
   m_configObjects: {}
