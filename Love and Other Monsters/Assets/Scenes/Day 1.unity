@@ -660,6 +660,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31190682}
     m_Modifications:
+    - target: {fileID: 1392274096, guid: e1e72a02b2e26ef438b572032f030760, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1392274096, guid: e1e72a02b2e26ef438b572032f030760, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1392274097, guid: e1e72a02b2e26ef438b572032f030760, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1258,6 +1266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31190682}
     m_Modifications:
+    - target: {fileID: 7083632425415552760, guid: e172c86887f85f14686cef679d98857e, type: 3}
+      propertyPath: rotationSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7905252911455792091, guid: e172c86887f85f14686cef679d98857e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
