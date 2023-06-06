@@ -7,11 +7,11 @@ Every time the bumpy road jolted me awake, I would see those same hills, crawlin
 
 I don’t sleep this time.
 
-Here we go, miss. #bg: hawthorne_driveway
+Here we go, miss. #bg: victoria_outside_carriage
 
 Thank you. #portrait:victoria
 
-I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #portrait:none #speaker-cr:claudius_neutral #speaker-cl:freya_neutral
+I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #bg: hawthorne_driveway #portrait:none #speaker-cr:claudius_neutral #speaker-cl:freya_neutral
 
 They mirror each other almost perfectly in posture—arms crossed, back straight, brows furrowed—though I notice Freya has managed to surpass even her father in height. 
 Not terribly surprising, remembering how much I struggled to keep up with her long strides on those rare occasions when she was allowed to come play in Father’s yard. 
