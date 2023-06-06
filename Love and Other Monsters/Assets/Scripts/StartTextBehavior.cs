@@ -63,6 +63,14 @@ public class StartTextBehavior : MonoBehaviour
                 {
                     fadein = false;
                     fadeout = false;
+                    indicator.GetComponent<CanvasGroup>().blocksRaycasts = false;
+                    foreach (GameObject item in paragraphs)
+                    {
+                        item.GetComponent<CanvasGroup>().blocksRaycasts = false;
+                        item.GetComponent<CanvasGroup>().interactable = false;
+                    }
+                    this.GetComponent<CanvasGroup>().interactable = false;
+                    this.GetComponent<CanvasGroup>().blocksRaycasts = false;
                 }
 
                 else
