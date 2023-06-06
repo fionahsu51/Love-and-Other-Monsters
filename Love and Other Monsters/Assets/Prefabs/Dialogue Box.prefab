@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7edf9f54625ec144989a8deaf1070eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 0}
+  pauseMenu: {fileID: 2961153614606036309, guid: e1e72a02b2e26ef438b572032f030760, type: 3}
 --- !u!1 &2065318435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1241,7 @@ MonoBehaviour:
   inkFile: {fileID: 0}
   endScene: 0
   sceneIndex: 2
+  map: {fileID: 0}
   choices:
   - {fileID: 6551638529964775807}
   - {fileID: 6551638529534857495}
