@@ -7,35 +7,26 @@ public class MapClick : MonoBehaviour
 {
     public int SceneIndex;
     bool mouseHover = false;
-    public bool clickable = false;
     GameObject dialogueBox;
-    Dialogue dialogue;
     public GameObject enlarged;
-    public Map map;
 
     // Start is called before the first frame update
     void Start()
     {
         enlarged.SetActive(false);
-        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();;
         dialogueBox = GameObject.Find("/Canvas/Dialogue Box");
-        dialogue = dialogueBox.GetComponent<Dialogue>();
         //dialogueScript = dialogueBox.GetComponent<Dialogue>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         // Check if there is a dialogue box in this scene
         if (dialogueBox == null)
         {
-            if (Input.GetMouseButton(0) && mouseHover == true && clickable == true)
+            if (Input.GetMouseButton(0) && mouseHover == true)
             {
-                //SceneManager.LoadScene(SceneIndex);
-                map.setInvisible();
-                dialogueBox.SetActive(true);
-                dialogue.returnFromMap();
+                SceneManager.LoadScene(SceneIndex);
             }
         }
 
@@ -75,11 +66,9 @@ public class MapClick : MonoBehaviour
     IEnumerator ClickBuffer()
     {
         yield return new WaitForSeconds(0.4f);
-        if (Input.GetMouseButton(0) && mouseHover == true && clickable == true)
+        if (Input.GetMouseButton(0) && mouseHover == true)
         {
-            map.setInvisible();
-            dialogueBox.SetActive(true);
-            dialogue.returnFromMap();
+            SceneManager.LoadScene(SceneIndex);
         }
     }
 }

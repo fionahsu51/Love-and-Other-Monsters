@@ -18,7 +18,6 @@ public class Dialogue : MonoBehaviour
     public bool endScene;
     public int sceneIndex;
     int canAdvance = 1;
-    public Map map;
 
     //choices
     public GameObject [] choices;
@@ -41,7 +40,6 @@ public class Dialogue : MonoBehaviour
     private const string PORTRAIT_TAG = "portrait";
     private const string FORMAT_TAG = "format";
     private const string BACKGROUND_TAG = "bg";
-    private const string OPEN_MAP_TAG = "map";
 
     public Animator speakerAnimator;
     public Animator speakerLAnimator;
@@ -57,8 +55,6 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();
-        map.setInvisible();
         pageFlipSFX = GetComponent<AudioSource>();
         textComponent.text = string.Empty;
         //get choices if there are choices
@@ -171,11 +167,6 @@ public class Dialogue : MonoBehaviour
                     Debug.Log(val);
                     bgAnimator.Play(val);
                     break;
-                case OPEN_MAP_TAG:
-                    Debug.Log("map should open");
-                    map.setVisible();
-                    gameObject.SetActive(false);
-                    break;
                 default:
                     Debug.Log("Tag not handled");
                     break;
@@ -246,9 +237,5 @@ public class Dialogue : MonoBehaviour
 
     public void setCanAdvance(){
         canAdvance *= -1;
-    }
-
-    public void returnFromMap(){
-        continueStory();
     }
 }
