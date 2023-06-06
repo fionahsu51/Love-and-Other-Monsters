@@ -8,7 +8,7 @@ public class MapClick : MonoBehaviour
     public int SceneIndex;
     bool mouseHover = false;
     public bool clickable = false;
-    GameObject dialogueBox;
+    public GameObject dialogueBox;
     Dialogue dialogue;
     public GameObject enlarged;
     public Map map;
@@ -17,7 +17,7 @@ public class MapClick : MonoBehaviour
     void Start()
     {
         enlarged.SetActive(false);
-        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();;
+        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();
         dialogueBox = GameObject.Find("/Canvas/Dialogue Box");
         dialogue = dialogueBox.GetComponent<Dialogue>();
         //dialogueScript = dialogueBox.GetComponent<Dialogue>();

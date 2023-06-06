@@ -357,7 +357,7 @@ With that thought, I unfurl my map onto the desk.
 
 Dolores lives in a room behind her family’s candle shop. I should check the directions. 
 
-(I need to get to the candle shop.) #map:map
+(I need to get to the candle shop.)
 
 -> dolores_visit
 
