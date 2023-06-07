@@ -126,7 +126,7 @@ Claudius was wrong. This town hasn’t changed at all.
 
 … library’s still standing, who knows how old that thing is… And there’s the flower shop, closes at sunset— #portrait:freya #speaker:freya_reluctant
 
-I turn to look and a pang of nostalgia hits me so swiftly, I almost miss what caused it: a bouquet of pale purple asters sitting on display in the shop window. #portrait:none #bg:flower_shop_day
+I turn to look and a pang of nostalgia hits me so swiftly, I almost miss what caused it: a bouquet of pale purple asters sitting on display in the shop window. #portrait:none #bg:flower_shop_asters
 
 Wait—can we stop here? #portrait:victoria
 
@@ -357,7 +357,7 @@ With that thought, I unfurl my map onto the desk.
 
 Dolores lives in a room behind her family’s candle shop. I should check the directions. 
 
-(I need to get to the candle shop.)
+(I need to get to the candle shop.) #map:map #bg:map
 
 -> dolores_visit
 
