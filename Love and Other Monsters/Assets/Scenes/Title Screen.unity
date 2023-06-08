@@ -35815,8 +35815,8 @@ MonoBehaviour:
   paragraphs:
   - {fileID: 525098667}
   - {fileID: 1110527027}
-  - {fileID: 276612351}
   indicator: {fileID: 922129707}
+  background: {fileID: 276612351}
   fadeSpeed: 0.8
 --- !u!225 &1797551691
 CanvasGroup:

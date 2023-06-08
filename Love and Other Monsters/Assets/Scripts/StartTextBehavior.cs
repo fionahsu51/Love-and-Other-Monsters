@@ -7,6 +7,7 @@ public class StartTextBehavior : MonoBehaviour
 {
     public GameObject[] paragraphs;
     public GameObject indicator;
+    public GameObject background;
     bool fadeout = false;
     bool fadein = false;
     public float fadeSpeed = 0.5f;
@@ -27,11 +28,11 @@ public class StartTextBehavior : MonoBehaviour
         {
             float objectAlpha = paragraphs[index].GetComponent<CanvasGroup>().alpha;
             paragraphs[index].GetComponent<CanvasGroup>().alpha = objectAlpha + (fadeSpeed * Time.deltaTime);
-
-            if (index < paragraphs.Length - 1)
-            {
-                indicator.GetComponent<CanvasGroup>().alpha = objectAlpha + (fadeSpeed * Time.deltaTime);
-            }
+            indicator.GetComponent<CanvasGroup>().alpha = objectAlpha + (fadeSpeed * Time.deltaTime);
+            //if (index < paragraphs.Length - 1)
+            //{
+            //    indicator.GetComponent<CanvasGroup>().alpha = objectAlpha + (fadeSpeed * Time.deltaTime);
+            //}
 
             if (objectAlpha == 1)
             {
@@ -51,7 +52,7 @@ public class StartTextBehavior : MonoBehaviour
         {
             float objectAlpha = paragraphs[index].GetComponent<CanvasGroup>().alpha;
             paragraphs[index].GetComponent<CanvasGroup>().alpha = objectAlpha - (fadeSpeed * Time.deltaTime);
-            if (index < paragraphs.Length - 1)
+            if (index <= paragraphs.Length - 1)
             {
                 indicator.GetComponent<CanvasGroup>().alpha = objectAlpha - (fadeSpeed * Time.deltaTime);
             }
@@ -63,6 +64,7 @@ public class StartTextBehavior : MonoBehaviour
                 {
                     fadein = false;
                     fadeout = false;
+                    background.GetComponent<CanvasGroup>().alpha = objectAlpha - (0.2f * Time.deltaTime);
                     indicator.GetComponent<CanvasGroup>().blocksRaycasts = false;
                     foreach (GameObject item in paragraphs)
                     {
