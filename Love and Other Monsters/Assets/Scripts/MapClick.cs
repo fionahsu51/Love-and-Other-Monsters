@@ -8,18 +8,19 @@ public class MapClick : MonoBehaviour
     public int SceneIndex;
     bool mouseHover = false;
     public bool clickable = false;
-    GameObject dialogueBox;
-    Dialogue dialogue;
+    //public GameObject dialogueBox;
+    //Dialogue dialogue;
     public GameObject enlarged;
     public Map map;
+    public MapHelper mapHelper;
 
     // Start is called before the first frame update
     void Start()
     {
         enlarged.SetActive(false);
-        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();;
-        dialogueBox = GameObject.Find("/Canvas/Dialogue Box");
-        dialogue = dialogueBox.GetComponent<Dialogue>();
+        map = GameObject.Find("Map of Castelonia").GetComponent<Map>();
+        //dialogueBox = GameObject.Find("/Canvas/Dialogue Box");
+        //dialogue = dialogueBox.GetComponent<Dialogue>();
         //dialogueScript = dialogueBox.GetComponent<Dialogue>();
     }
 
@@ -28,18 +29,19 @@ public class MapClick : MonoBehaviour
     {
         
         // Check if there is a dialogue box in this scene
-        if (dialogueBox == null)
-        {
+        //if (dialogueBox == null)
+        //{
             if (Input.GetMouseButton(0) && mouseHover == true && clickable == true)
             {
                 //SceneManager.LoadScene(SceneIndex);
                 map.setInvisible();
-                dialogueBox.SetActive(true);
-                dialogue.returnFromMap();
+                mapHelper.activateDialogueBox();
+                //dialogueBox.SetActive(true);
+                //dialogue.returnFromMap();
             }
-        }
+        //}
 
-        // If there is a dialogue box in this scene
+        /* If there is a dialogue box in this scene
         else
         {
             // If dialogue is finished, start coroutine
@@ -47,27 +49,27 @@ public class MapClick : MonoBehaviour
             {
                 StartCoroutine(ClickBuffer());
             }
-        }
+        }*/
     }
 
     void OnMouseOver()
     {
-        if (!dialogueBox.activeSelf)
-        {
+        //if (!dialogueBox.activeSelf)
+        //{
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             enlarged.SetActive(true);
             mouseHover = true;
-        }
+        //}
     }
 
     void OnMouseExit()
     {
-        if (!dialogueBox.activeSelf)
-        {
+        //if (!dialogueBox.activeSelf)
+        //{
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
             enlarged.SetActive(false);
             mouseHover = false;
-        }
+        //}
     }
 
     // QOL, prevents immediate/accidental clicking to a different scene when the dialogue is finished
@@ -78,8 +80,8 @@ public class MapClick : MonoBehaviour
         if (Input.GetMouseButton(0) && mouseHover == true && clickable == true)
         {
             map.setInvisible();
-            dialogueBox.SetActive(true);
-            dialogue.returnFromMap();
+            //dialogueBox.SetActive(true);
+            //dialogue.returnFromMap();
         }
     }
 }
