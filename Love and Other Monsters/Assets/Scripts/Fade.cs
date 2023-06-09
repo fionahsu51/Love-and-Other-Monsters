@@ -8,8 +8,8 @@ public class Fade : MonoBehaviour
 
     public float timeToWaitIn = 2.0f;
     public float timeToWaitOut = 10.0f;
-    bool fadeout = false;
-    bool fadein = false;
+    public bool fadeout = false;
+    public bool fadein = false;
     public float fadeSpeed = 0.5f;
     // Start is called before the first frame update
     void Start()
@@ -41,6 +41,7 @@ public class Fade : MonoBehaviour
 
             if(objectAlpha == 0){
                 fadeout = false;
+                this.GetComponent<CanvasGroup>().blocksRaycasts = false;
             }
         }
     }

@@ -1,22 +1,28 @@
+INCLUDE globals.ink
 -> day_1
 
 === day_1 ===
 
-What if it eats you? #format:italic #bg: intro_carriage
+~bgm = 1
+What if it eats you? #format:italic #bg: intro_carriage 
 
 The ride to Castelonia is just as I remember it. Rolling hills and nothing else for miles on end on that winding dirt road connecting the town to the rest of the world. #format:none
+~fade_bool=true
+Ten years ago, I looked out the carriage window through teary eyes, drifting in and out of sleep.
 
-Ten years ago, I looked out the carriage window through teary eyes, drifting in and out of sleep. 
 
-Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all. 
-        
+Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all.
+
 I don’t sleep this time.
 
-Here we go, miss. #bg: victoria_outside_carriage
+
+
+Here we go, miss. #portrait:driver #bg: victoria_outside_carriage
 
 Thank you. #portrait:victoria
+~ fade_bool = false
 
-I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #bg: hawthorne_driveway #portrait:none #speaker-cl:freya_neutral #speaker-cr:claudius_neutral 
+I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #bg: hawthorne_driveway #portrait:none #speaker-cl:freya_neutral #speaker-cr:claudius_neutral #speaker-cl-transition:a #speaker-cr-transition:a
 
 They mirror each other almost perfectly in posture—arms crossed, back straight, brows furrowed—though I notice Freya has managed to surpass even her father in height. 
 
@@ -26,11 +32,11 @@ Freya's temperamental nature meant we were always at each other’s throats, jum
 
 Freya sees me first, eyes widening, and whispers something to Claudius, who whips around. #speaker-cl:freya_surprised
 
-V-Victoria? What are you doing here? #portrait:none #speaker-cr:claudius_surprised
+V-Victoria? What are you doing here? #portrait:claudius #speaker-cr:claudius_surprised
 
 For a moment, Claudius looks like he’s seen a ghost. I shift uncertainly as he quickly regains his composure. #portrait:none
 
-Forgive me. I only mean—you’re earlier than I expected. #portrait:none #speaker-cr:claudius_neutral
+Forgive me. I only mean—you’re earlier than I expected. #portrait:claudius #speaker-cr:claudius_neutral
 
 I nod, holding up the letter. #portrait:none
 
@@ -38,7 +44,7 @@ I left as soon as I heard. #portrait:victoria
 
 Freya opens her mouth, then snaps it shut. She furtively glances at her father. An unreadable look passes between them. #portrait:none #speaker-cl:freya_reluctant
 
-Ah. Well. Thank the stars for your swift and safe passage. #portrait:none #speaker-cr:claudius_smile
+Ah. Well. Thank the stars for your swift and safe passage. #portrait:claudius #speaker-cr:claudius_smile
 
 My sincere condolences for your loss, Victoria. #speaker-cl:freya_neutral #speaker-cr:claudius_neutral 
 
@@ -48,19 +54,19 @@ The angels themselves open heaven’s gates… for the most benevolent and carin
 
 Claudius looks expectantly at Freya. #portrait:none #speaker-cl:freya_reluctant 
 
-Um. Deepest condolences, Victoria. #portrait:freya #speaker-cl:freya_neutral 
+Um. Deepest condolences, Victoria. #portrait:freya #speaker-cl:freya_closed_eyes 
 
 I give an awkward nod. The frantic mix of emotions that the letter brought—grief, shock, confusion, anger—has settled into a strange numbness, and I’d like to keep it that way for now. #portrait:none
 
 Thankfully, Claudius, brisk as always, doesn’t dwell on the subject.
 
-I’m sure much has changed since your departure. Freya, dearest, why don’t you take the carriage and show Victoria around the town? I... have some business to take care of. #speaker-cr:claudius_smile 
+I’m sure much has changed since your departure. Freya, dearest, why don’t you take the carriage and show Victoria around the town? I... have some business to take care of. #portrait:claudius #speaker-cr:claudius_smile 
 
 Uh... #portrait:freya #speaker-cl:freya_reluctant #speaker-cr:claudius_smile
 
 Claudius raises his eyebrows at her and Freya huffs quietly. #portrait:none #speaker-cr:claudius_neutral
 
-Of course. It would be my pleasure. #portrait:freya #speaker-cl:freya_polite
+Of course. It would be my pleasure. #portrait:freya #speaker-cl:freya_smirk
 
 I hold back a snort—it’s clear pleasure is the last thing on her mind. #portrait:none
 
@@ -74,7 +80,7 @@ Shall we? #portrait:freya #speaker-cl:freya_awkward
 
 She jerks her thumb towards the carriage. #portrait:none
 
-I nod and follow Freya as Claudius turns back towards the house. #speaker-cl:default #speaker-c:freya_neutral #speaker-cr:default
+I nod and follow Freya as Claudius turns back towards the house. #speaker-cl:default #speaker-c:freya_neutral #speaker-cr:default #speaker-c-transition:a
 
 	Urgh— #portrait:victoria
 
@@ -84,13 +90,13 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
 
 *   [Let her help you.]
 
-    I mean to do it together, but Freya effortlessly lifts the suitcase from my arms and into the carriage. Clearly her training has paid off. #portrait:none #speaker:freya_polite
+    I mean to do it together, but Freya effortlessly lifts the suitcase from my arms and into the carriage. Clearly her training has paid off. #portrait:none #speaker:freya_smirk
     
     Oh. Thanks. #portrait:victoria
     
     Uh huh. #portrait:freya #speaker:freya_blushing
     
-    She jumps into the seat. The foot iron makes it easy to climb in, but I don’t protest when Freya reaches out a gloved hand to help me up. #portrait:none #speaker:freya_polite
+    She jumps into the seat. The foot iron makes it easy to climb in, but I don’t protest when Freya reaches out a gloved hand to help me up. #portrait:none 
     
     -> start_tour
 	
@@ -110,11 +116,13 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
 
 = start_tour
 
-All set? #portrait:freya #speaker:freya_polite
+All set? #portrait:freya #speaker:freya_smirk
 
 I nod, Freya flicks the reins, and we’re off. #portrait:none #speaker:freya_neutral
+~bgm_bool = false
+~bgm = 2
 
-The beginnings of an evening breeze are picking up by the time we reach the town square. I lean back in my seat, half-listening, as Freya halfheartedly points out the various shops and stands lining the streets. #bg:town_square_day
+The beginnings of an evening breeze are picking up by the time we reach the town square. I lean back in my seat, half-listening, as Freya halfheartedly points out the various shops and stands lining the streets. #bg:town_square_day #speaker:default
 
 It’s almost eerie, the way the townsfolk look both strange and familiar, as if all the faces have been swapped out from a familiar painting.
 
@@ -124,7 +132,7 @@ Across the street, a frail-looking young woman sits on the library steps, hand s
 
 Claudius was wrong. This town hasn’t changed at all.
 
-… library’s still standing, who knows how old that thing is… And there’s the flower shop, closes at sunset— #portrait:freya #speaker:freya_reluctant
+… library’s still standing, who knows how old that thing is… And there’s the flower shop, closes at sunset— #portrait:freya #speaker:freya_reluctant #speaker-transition:a
 
 I turn to look and a pang of nostalgia hits me so swiftly, I almost miss what caused it: a bouquet of pale purple asters sitting on display in the shop window. #portrait:none #bg:flower_shop_asters
 
@@ -134,13 +142,13 @@ Freya brings us to a halt and I rush into the shop, digging coins from my pocket
 
 But when the florist hands me the asters, my eyes water at the sweet scent and the rush of memories it carries. <i>Dolores</i>. Of course I won’t leave without a visit. Of course. 
 
-Freya eyes the bouquet when I return to the carriage. #speaker:freya_uncertain
+Freya eyes the bouquet when I return to the carriage. #speaker:freya_uncertain #speaker-transition:a
 
 *   [Explain.]
     
     It’s for, um. A friend. #portrait:victoria
     
-    Freya’s lips quirk at my hesitation. #portrait:none
+    Freya’s lips quirk at my hesitation. #portrait:none #speaker:freya_smirk
 
     A friend, or a… <i>friend</i>? #portrait:freya #speaker:freya_surprised
     
@@ -228,13 +236,13 @@ Your father’s horse is in our stable. We have an old carriage you can use whil
     
     I sneak a glance at Freya just in time to see the corners of her mouth twitching. #portrait:none
     
-    Phantom. #portrait:freya #speaker:freya_polite
+    Phantom. #portrait:freya #speaker:freya_smirk
 
-    As if on cue, Phantom gives a snort, and Freya laughs—a real laugh, so carefree I almost can’t believe it came from her. #portrait:none
+    As if on cue, Phantom gives a snort, and Freya laughs—a real laugh, so carefree I almost can’t believe it came from her. #portrait:none #speaker:freya_laugh
     
     See? She knows her name. #portrait:freya 
     
-    Well, I guess Phantom’s not a terrible name for a horse… #portrait:victoria
+    Well, I guess Phantom’s not a terrible name for a horse… #portrait:victoria #speaker:freya_smirk
     
     Yeah, yeah. #portrait:freya
     
@@ -253,12 +261,13 @@ Your father’s horse is in our stable. We have an old carriage you can use whil
     -> end_tour
 
 = end_tour
-
+~ fade_bool = true
 Before long, Hawthorne Estate looms up ahead. Freya brings the carriage to a halt near the back of the property, next to the stable. #portrait:none
 
+~ fade_bool = false
 I hope Courage hasn’t been too much trouble. #portrait:victoria
 
-Don’t mention it. He’s an angel. Though Phantom isn’t too happy about sharing her carrots. #portrait:freya #speaker:freya_polite
+Don’t mention it. He’s an angel. Though Phantom isn’t too happy about sharing her carrots. #portrait:freya #speaker:freya_neutral
 
 I try to picture the horses eating out of Freya’s palm and smile at the thought, though something about the image doesn’t feel quite right… #portrait:none
 
@@ -267,16 +276,17 @@ Doesn’t your sister usually take care of the horses? Since you’re busy, uh, 
 There’s no reply. When I look over, she’s staring straight ahead in stony silence. What did I say? #portrait:none #speaker:freya_neutral
 
 … Freya? #portrait:victoria
-
+~ bgm_bool = false
+~bgm = 0
 … #portrait:freya
 
-Del—My sister— 
+Del—My sister— #speaker:freya_closed_eyes
 
 Her voice wavers uncharacteristically and the realization hits me. #portrait:none
 
 A coldness spreads in my chest. Delia… It’s true that she was never the picture of health when we were younger, but somehow I never imagined coming back to a town without her in it.
 
-	I’m sorry, I—I had no idea… #portrait:victoria
+	I’m sorry, I—I had no idea… #portrait:victoria 
 
 I scramble for something more meaningful to say, still reeling. #portrait:none
 
@@ -295,7 +305,7 @@ I scramble for something more meaningful to say, still reeling. #portrait:none
     
     Silence. And then, so quietly I almost miss it— #portrait:none
  
-    I’m sorry, too. #portrait:freya
+    I’m sorry, too. #portrait:freya #speaker:freya_upset
     	
     I don’t know if she’s referring to Delia or my father, but I nod. I wish I could offer something else—a hug, or even just a comforting hand on her shoulder. #portrait:none 
     
@@ -309,9 +319,9 @@ I scramble for something more meaningful to say, still reeling. #portrait:none
 
     I do mean it, but just like Freya’s earlier condolences, it comes out hollow. #portrait:none
 
-	Yeah. Well. #portrait:freya #speaker:freya_uncertain
+	Yeah. Well. #portrait:freya #speaker:freya_upset
 	
-	She closes her eyes, swallowing hard. #portrait:none
+	She closes her eyes, swallowing hard. #portrait:none #speaker:freya_closed_eyes
 
 	You should head back before it gets dark. #portrait:freya
 
@@ -320,13 +330,15 @@ I scramble for something more meaningful to say, still reeling. #portrait:none
     -> go_home
 
 = go_home
-
+~ fade_bool = true
 There’s little light left in the sky when I finally pull up to my father’s manor in the borrowed carriage. Courage is skittish and stubborn, only barely listening to my commands, but he perks up at the familiar sight of the house. #portrait:none #bg: morgan_driveway_sunset #speaker:default
 
 I wonder whether Courage knows his owner is gone forever, or if he’s expecting Father to come out and greet him at any moment.
 
 I’m not sure which I believe more myself.
-
+~ bgm_bool = false
+~ fade_bool = false
+~ bgm = 1
 Crossing the threshold feels like walking into a dream. I’ve imagined this scene a million times: the creak of the door, the rush of warm air carrying the house’s signature scent—parchment, firewood, leather, cinnamon. 
 
 But the house is cold when I enter, as cold as the outside air and twice as still. It smells like dust. 
@@ -346,6 +358,7 @@ For a moment I sit in the darkness, listening to the sound of my own breathing. 
 Eventually I find the courage to light a lamp. Though largely bare, the room seems well-maintained. The bed is made and a vase of flowers sits on the desk—dry and wilted, but far too intact to have been there for years.
 
 I’m suddenly reminded of my own bouquet still sitting in the carriage outside. 
+~ fade_bool = true
 
 Shit. #portrait:victoria
 
@@ -358,7 +371,7 @@ With that thought, I unfurl my map onto the desk.
 Dolores lives in a room behind her family’s candle shop. I should check the directions. 
 
 (I need to get to the candle shop.) #map:map #bg:map
-
+~ fade_bool = false
 -> dolores_visit
 
 = dolores_visit
@@ -374,8 +387,9 @@ I follow my instincts and find myself nearing a familiar group of houses. It mus
 I slow my pace, doubt rushing back at full force. Ten years since I was here. And two years since her last letter. 
 I run through a thousand apologies in my head, but they all fall short. If only I knew what I was apologizing for. What will I say to her? 
 
+~whoosh=true
 A sudden chill rips me from my thoughts. I freeze in place. What was that? There was no noise, no movement, and yet… I’m certain something has changed.
-
+~whoosh=false
 I spin in a slow circle, scanning the trees. The trees stare back. I glance back towards Dolores’s house, and—
 
 A shadow blocks the path up ahead. That silhouette… Something about it makes my blood run cold.
@@ -384,12 +398,14 @@ It moves.
 
 I dash behind the nearest tree, heart pounding in my ears. Did it see me? My breath comes out in gasps. Surely it can hear. I grip the trunk with sweaty palms and chance a glance down the path. 
 
+~violins=true
 Ah! #portrait:victoria #bg:aveline_day1_cg
 
 For a split second, I see it—a pair of glowing eyes, staring straight at me. #portrait:none
 
+~violins_done=true
 Then just as quickly, the figure is gone. #bg:dolores_path
-
+~violins=false
 What—? #portrait:victoria
 
 I blink. I’m sure I saw it. I’m sure of it… But how did it disappear so quickly? #portrait:none
