@@ -5096,7 +5096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4cedd2516f11ef41a0807ec2822214c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
+  sceneIndex: 7
 --- !u!1 &134329109
 GameObject:
   m_ObjectHideFlags: 0
@@ -36212,6 +36212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9cb970816be50b42a913fdd3ec7c590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 0}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
   paragraphs:
   - {fileID: 525098667}
   - {fileID: 1110527027}
