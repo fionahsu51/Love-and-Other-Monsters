@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class StartTextBehavior : MonoBehaviour
 {
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+
     public GameObject[] paragraphs;
     public GameObject indicator;
     public GameObject background;
@@ -16,6 +20,7 @@ public class StartTextBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
         indicator.GetComponent<CanvasGroup>().alpha = 0;
         fadein = true;
     }
