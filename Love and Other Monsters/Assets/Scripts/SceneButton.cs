@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneButton : MonoBehaviour
 {
-    public int SceneIndex;
+    public int sceneIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class SceneButton : MonoBehaviour
 
     public void OnButtonPress()
     {
-        SceneManager.LoadScene(SceneIndex);
+        SceneManager.LoadScene(sceneIndex);
         Debug.Log("Button clicked");
     }
 }
