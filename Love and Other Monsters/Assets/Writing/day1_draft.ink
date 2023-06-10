@@ -12,7 +12,7 @@ Ten years ago, I looked out the carriage window through teary eyes, drifting in 
 
 
 Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all.
-
+~fade_bool=true
 I don’t sleep this time.
 
 
