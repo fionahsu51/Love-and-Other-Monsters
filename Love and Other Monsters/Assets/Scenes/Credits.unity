@@ -245,8 +245,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1760, y: -1007}
-  m_SizeDelta: {x: 285.6844, y: 105}
+  m_AnchoredPosition: {x: 370, y: -247}
+  m_SizeDelta: {x: 163.0331, y: 59.9209}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395703009
 MonoBehaviour:
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4cedd2516f11ef41a0807ec2822214c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneIndex: 0
+  sceneIndex: 0
 --- !u!1 &620206241
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,11 +403,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -559,8 +559,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2, y: -4.1}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.6929016, y: -2.7426987}
+  m_SizeDelta: {x: -3.6929, y: -1.3573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1341320034
 MonoBehaviour:
@@ -609,8 +609,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
