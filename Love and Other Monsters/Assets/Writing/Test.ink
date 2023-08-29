@@ -1,0 +1,2 @@
+hello my name is dolores and I like to eat lots of <i>delicious</i> toast.#speaker:dolores_neutral #portrait:dolores #bg:dolores_room_day 
+supercalifragilistiexpialidociousaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaa
