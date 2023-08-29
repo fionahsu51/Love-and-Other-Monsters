@@ -19,7 +19,6 @@ public class Dialogue : MonoBehaviour
     public int sceneIndex;
     int canAdvance = 1;
     public Map map;
-    int bgmTrack;
 
     //choices
     public GameObject [] choices;
@@ -49,8 +48,6 @@ public class Dialogue : MonoBehaviour
     private const string FORMAT_TAG = "format";
     private const string BACKGROUND_TAG = "bg";
     private const string OPEN_MAP_TAG = "map";
-    private const string MUSIC_TAG = "music";
-    private const string FADE_MUSIC_TAG = "fade-music";
 
     public Animator speakerAnimator;
     public Animator speakerLAnimator;
@@ -71,15 +68,6 @@ public class Dialogue : MonoBehaviour
 
     public AudioClip[] audioSources;
     private AudioSource pageFlipSFX;
-    public TownMusic townMusic;
-    public AudioSource bgm;
-    public AudioClip[] bgmSources;
-
-    public AudioSource whoosh;
-    public AudioSource violins;
-
-    bool whooshHasPlayed = false;
-    bool violinsHavePlayed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -105,37 +93,6 @@ public class Dialogue : MonoBehaviour
     void Update()
     {
 
-        if(!bgm.isPlaying && (bool)currentStory.variablesState["bgm_bool"] == false){
-            Debug.Log("playing new track");
-            bgm.volume = 0.5f;
-            currentStory.variablesState["bgm_bool"] = true;
-            bgmTrack = (int)currentStory.variablesState["bgm"];
-            AudioClip a = bgmSources[bgmTrack];
-            bgm.clip = a;
-            bgm.Play();
-        }
-        if(bgm.isPlaying && (bool)currentStory.variablesState["fade_bool"] == true){
-            StartCoroutine(FadeAudioSource.StartFade(bgm, 1.3f, 0));
-            
-        }
-
-        if(!whoosh.isPlaying && ((bool)currentStory.variablesState["whoosh"] == true) && !whooshHasPlayed){
-            Debug.Log("playing whoosh");
-            whooshHasPlayed = true;
-            currentStory.variablesState["whoosh"] = false;
-            whoosh.Play();
-        }
-
-        if(!violins.isPlaying && ((bool)currentStory.variablesState["violins"] == true) && !violinsHavePlayed){
-            Debug.Log("playing violins");
-            currentStory.variablesState["violins"] = false;
-            violins.Play();
-        }
-
-        if(violins.isPlaying && ((bool)currentStory.variablesState["violins_done"] == true) && violinsHavePlayed){
-            StartCoroutine(FadeAudioSource.StartFade(violins, 1.3f, 0));
-        }
-
         if(Input.GetMouseButtonDown(0) && canAdvance == 1 && Time.timeScale != 0.0)
         {
             if(currentStory.currentChoices.Count == 0 && textComponent.text == currentLine)
@@ -143,7 +100,7 @@ public class Dialogue : MonoBehaviour
                 continueStory();
                 if(gameObject.activeSelf)
                 {
-                    pageFlipSFX.clip = audioSources[Random.Range(0, audioSources.Length)];
+                    //pageFlipSFX.clip = audioSources[Random.Range(0, audioSources.Length)];
                     //pageFlipSFX.Play();
                     
                 }
@@ -151,13 +108,6 @@ public class Dialogue : MonoBehaviour
 
             else
             {
-                if((bool)currentStory.variablesState["fade_bool"] == true){
-                    bgm.Stop();
-                }
-
-                if(violins.isPlaying && (bool)currentStory.variablesState["violins"] == false){
-                    violins.Stop();
-                }
 
                 foreach(SpriteRenderer r in renderers){
                     if(r.sprite.name != "none"){
@@ -361,10 +311,5 @@ public class Dialogue : MonoBehaviour
 
     public void returnFromMap(){
         continueStory();
-    }
-
-    void playBGM(AudioClip a){
-        bgm.clip = a;
-        bgm.Play();
     }
 }

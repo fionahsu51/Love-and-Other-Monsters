@@ -3,16 +3,14 @@ INCLUDE globals.ink
 
 === day_1 ===
 
-~bgm = 1
 What if it eats you? #format:italic #bg: intro_carriage 
 
 The ride to Castelonia is just as I remember it. Rolling hills and nothing else for miles on end on that winding dirt road connecting the town to the rest of the world. #format:none
-~fade_bool=true
 Ten years ago, I looked out the carriage window through teary eyes, drifting in and out of sleep.
 
 
 Every time the bumpy road jolted me awake, I would see those same hills, crawling by lazily, so indistinguishable from each other, it was like we were going nowhere at all.
-~fade_bool=true
+
 I don’t sleep this time.
 
 
@@ -20,7 +18,6 @@ I don’t sleep this time.
 Here we go, miss. #portrait:driver #bg: victoria_outside_carriage
 
 Thank you. #portrait:victoria
-~ fade_bool = false
 
 I walk up the stone path leading to the Hawthorne Estate. Claudius and Freya stand in front of the house, engrossed in conversation. #bg: hawthorne_driveway #portrait:none #speaker-cl:freya_neutral #speaker-cr:claudius_neutral #speaker-cl-transition:a #speaker-cr-transition:a
 
@@ -119,8 +116,6 @@ I struggle to hoist my suitcase into the back of the carriage. Before I know it,
 All set? #portrait:freya #speaker:freya_smirk
 
 I nod, Freya flicks the reins, and we’re off. #portrait:none #speaker:freya_neutral
-~bgm_bool = false
-~bgm = 2
 
 The beginnings of an evening breeze are picking up by the time we reach the town square. I lean back in my seat, half-listening, as Freya halfheartedly points out the various shops and stands lining the streets. #bg:town_square_day #speaker:default
 
@@ -261,10 +256,10 @@ Your father’s horse is in our stable. We have an old carriage you can use whil
     -> end_tour
 
 = end_tour
-~ fade_bool = true
+
 Before long, Hawthorne Estate looms up ahead. Freya brings the carriage to a halt near the back of the property, next to the stable. #portrait:none
 
-~ fade_bool = false
+
 I hope Courage hasn’t been too much trouble. #portrait:victoria
 
 Don’t mention it. He’s an angel. Though Phantom isn’t too happy about sharing her carrots. #portrait:freya #speaker:freya_neutral
@@ -276,8 +271,7 @@ Doesn’t your sister usually take care of the horses? Since you’re busy, uh, 
 There’s no reply. When I look over, she’s staring straight ahead in stony silence. What did I say? #portrait:none #speaker:freya_neutral
 
 … Freya? #portrait:victoria
-~ bgm_bool = false
-~bgm = 0
+
 … #portrait:freya
 
 Del—My sister— #speaker:freya_closed_eyes
@@ -330,15 +324,13 @@ I scramble for something more meaningful to say, still reeling. #portrait:none
     -> go_home
 
 = go_home
-~ fade_bool = true
+
 There’s little light left in the sky when I finally pull up to my father’s manor in the borrowed carriage. Courage is skittish and stubborn, only barely listening to my commands, but he perks up at the familiar sight of the house. #portrait:none #bg: morgan_driveway_sunset #speaker:default
 
 I wonder whether Courage knows his owner is gone forever, or if he’s expecting Father to come out and greet him at any moment.
 
 I’m not sure which I believe more myself.
-~ bgm_bool = false
-~ fade_bool = false
-~ bgm = 1
+
 Crossing the threshold feels like walking into a dream. I’ve imagined this scene a million times: the creak of the door, the rush of warm air carrying the house’s signature scent—parchment, firewood, leather, cinnamon. 
 
 But the house is cold when I enter, as cold as the outside air and twice as still. It smells like dust. 
@@ -358,7 +350,6 @@ For a moment I sit in the darkness, listening to the sound of my own breathing. 
 Eventually I find the courage to light a lamp. Though largely bare, the room seems well-maintained. The bed is made and a vase of flowers sits on the desk—dry and wilted, but far too intact to have been there for years.
 
 I’m suddenly reminded of my own bouquet still sitting in the carriage outside. 
-~ fade_bool = true
 
 Shit. #portrait:victoria
 
@@ -371,7 +362,7 @@ With that thought, I unfurl my map onto the desk.
 Dolores lives in a room behind her family’s candle shop. I should check the directions. 
 
 (I need to get to the candle shop.) #map:map #bg:map
-~ fade_bool = false
+
 -> dolores_visit
 
 = dolores_visit
@@ -387,9 +378,9 @@ I follow my instincts and find myself nearing a familiar group of houses. It mus
 I slow my pace, doubt rushing back at full force. Ten years since I was here. And two years since her last letter. 
 I run through a thousand apologies in my head, but they all fall short. If only I knew what I was apologizing for. What will I say to her? 
 
-~whoosh=true
+
 A sudden chill rips me from my thoughts. I freeze in place. What was that? There was no noise, no movement, and yet… I’m certain something has changed.
-~whoosh=false
+
 I spin in a slow circle, scanning the trees. The trees stare back. I glance back towards Dolores’s house, and—
 
 A shadow blocks the path up ahead. That silhouette… Something about it makes my blood run cold.
@@ -398,14 +389,14 @@ It moves.
 
 I dash behind the nearest tree, heart pounding in my ears. Did it see me? My breath comes out in gasps. Surely it can hear. I grip the trunk with sweaty palms and chance a glance down the path. 
 
-~violins=true
+
 Ah! #portrait:victoria #bg:aveline_day1_cg
 
 For a split second, I see it—a pair of glowing eyes, staring straight at me. #portrait:none
 
-~violins_done=true
+
 Then just as quickly, the figure is gone. #bg:dolores_path
-~violins=false
+
 What—? #portrait:victoria
 
 I blink. I’m sure I saw it. I’m sure of it… But how did it disappear so quickly? #portrait:none
