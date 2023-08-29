@@ -139,7 +139,6 @@ public class Dialogue : MonoBehaviour
     {
         foreach(string tag in tags){
             string [] tagSplit = tag.Split(':');
-            //Debug.Log(tagSplit.Length);
 
             string key = tagSplit[0].Trim();
             string val = tagSplit[1].Trim(); 
@@ -147,66 +146,51 @@ public class Dialogue : MonoBehaviour
             switch(key){
                 //Speakers
                 case SPEAKER_TAG:
-                    //Debug.Log(val);
                     speakerAnimator.Play(val);
                     break;
                 case SPEAKER_CENTER_TAG:
-                    //Debug.Log(val);
                     speakerAnimator.Play(val);
                     break;
                 case SPEAKER_LEFT_TAG:
-                    //Debug.Log(val);
                     speakerLAnimator.Play(val);
                     break;
                 case SPEAKER_C_LEFT_TAG:
-                    //Debug.Log(val);
                     speakerCLAnimator.Play(val);
                     break;
                 case SPEAKER_C_RIGHT_TAG:
-                    //Debug.Log(val);
                     speakerCRAnimator.Play(val);
                     break;
                 case SPEAKER_RIGHT_TAG:
-                    //Debug.Log(val);
                     speakerRAnimator.Play(val);
                     break;
                 
-
                 // Transitions
                 case SPEAKER_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerCTransition.FadeIn());
                     break;
                 case SPEAKER_CENTER_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerCTransition.FadeIn());
                     break;
                 case SPEAKER_LEFT_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerLTransition.FadeIn());
                     break;
                 case SPEAKER_C_LEFT_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerCLTransition.FadeIn());
                     break;
                 case SPEAKER_C_RIGHT_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerCRTransition.FadeIn());
                     break;
                 case SPEAKER_RIGHT_TRANSITION_TAG:
-                    //Debug.Log(val);
                     StartCoroutine(speakerRTransition.FadeIn());
                     break;
 
                 //Portrait
                 case PORTRAIT_TAG:
-                    //Debug.Log(val);
                     portraitAnimator.Play(val);
                     break;
 
                 //Format
                 case FORMAT_TAG:
-                    //Debug.Log(val);
                     if(val == "italic"){
                         textComponent.fontStyle = FontStyles.Italic;
                     }else if(val == "bold"){
@@ -219,11 +203,9 @@ public class Dialogue : MonoBehaviour
                 
                 //Background and Map
                 case BACKGROUND_TAG:
-                    //Debug.Log(val);
                     bgAnimator.Play(val);
                     break;
                 case OPEN_MAP_TAG:
-                    //Debug.Log("map should open");
                     map.setVisible();
                     gameObject.SetActive(false);
                     break;
