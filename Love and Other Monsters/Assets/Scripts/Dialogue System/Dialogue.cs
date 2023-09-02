@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using TMPro;
 using Ink.Runtime;
@@ -11,7 +12,7 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public TextAsset inkFile;
-    
+
     private Story currentStory;
     private string currentLine;
     private DialogueVariables dialogueVariables;
@@ -21,10 +22,10 @@ public class Dialogue : MonoBehaviour
     public Map map;
 
     //choices
-    public GameObject [] choices;
+    public GameObject[] choices;
 
-    private TextMeshProUGUI [] choiceText;
-    
+    private TextMeshProUGUI[] choiceText;
+
     //public string[] lines;
     public float textSpeed;
     //private int index;
@@ -54,14 +55,14 @@ public class Dialogue : MonoBehaviour
     public Animator speakerCLAnimator;
     public Animator speakerCRAnimator;
     public Animator speakerRAnimator;
-    
+
     public SpriteTransition speakerCTransition;
     public SpriteTransition speakerLTransition;
     public SpriteTransition speakerCLTransition;
     public SpriteTransition speakerCRTransition;
     public SpriteTransition speakerRTransition;
 
-    public SpriteRenderer [] renderers;
+    public SpriteRenderer[] renderers;
 
     public Animator portraitAnimator;
     public Animator bgAnimator;
@@ -75,32 +76,34 @@ public class Dialogue : MonoBehaviour
         //get choices if there are choices
         choiceText = new TextMeshProUGUI[choices.Length];
         int index = 0;
-        foreach(GameObject choice in choices)
+        foreach (GameObject choice in choices)
         {
             choiceText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
         dialogueVariables = new DialogueVariables();
         StartDialogue(inkFile);
-        
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if(Input.GetMouseButtonDown(0) && canAdvance == 1 && Time.timeScale != 0.0)
+        if (Input.GetMouseButtonDown(0) && canAdvance == 1 && Time.timeScale != 0.0)
         {
-            if(currentStory.currentChoices.Count == 0 && textComponent.text == currentLine)
+            if (currentStory.currentChoices.Count == 0 && textComponent.text == currentLine)
             {
                 continueStory();
+
             }
 
             else
             {
 
-                foreach(SpriteRenderer r in renderers){
-                    if(r.sprite.name != "none"){
+                foreach (SpriteRenderer r in renderers)
+                {
+                    if (r.sprite.name != "none")
+                    {
                         Color tmp = r.color;
                         tmp.a = 1;
                         r.color = tmp;
@@ -121,8 +124,10 @@ public class Dialogue : MonoBehaviour
         continueStory();
     }
 
-    void continueStory(){
-        if(currentStory.canContinue){
+    void continueStory()
+    {
+        if (currentStory.canContinue)
+        {
             textComponent.text = "";
             currentLine = currentStory.Continue();
             StartCoroutine(TypeLine());
@@ -130,20 +135,23 @@ public class Dialogue : MonoBehaviour
             HandleTags(currentStory.currentTags);
             HandleTags(currentStory.currentTags);
         }
-        else{
+        else
+        {
             endDialogue();
         }
     }
 
     private void HandleTags(List<string> tags)
     {
-        foreach(string tag in tags){
-            string [] tagSplit = tag.Split(':');
+        foreach (string tag in tags)
+        {
+            string[] tagSplit = tag.Split(':');
 
             string key = tagSplit[0].Trim();
-            string val = tagSplit[1].Trim(); 
+            string val = tagSplit[1].Trim();
 
-            switch(key){
+            switch (key)
+            {
                 //Speakers
                 case SPEAKER_TAG:
                     speakerAnimator.Play(val);
@@ -163,7 +171,7 @@ public class Dialogue : MonoBehaviour
                 case SPEAKER_RIGHT_TAG:
                     speakerRAnimator.Play(val);
                     break;
-                
+
                 // Transitions
                 case SPEAKER_TRANSITION_TAG:
                     StartCoroutine(speakerCTransition.FadeIn());
@@ -191,16 +199,21 @@ public class Dialogue : MonoBehaviour
 
                 //Format
                 case FORMAT_TAG:
-                    if(val == "italic"){
+                    if (val == "italic")
+                    {
                         textComponent.fontStyle = FontStyles.Italic;
-                    }else if(val == "bold"){
+                    }
+                    else if (val == "bold")
+                    {
                         textComponent.fontStyle = FontStyles.Bold;
-                    }else if(val == "none"){
+                    }
+                    else if (val == "none")
+                    {
                         textComponent.fontStyle &= ~FontStyles.Bold;
                         textComponent.fontStyle &= ~FontStyles.Italic;
                     }
                     break;
-                
+
                 //Background and Map
                 case BACKGROUND_TAG:
                     bgAnimator.Play(val);
@@ -216,48 +229,65 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void endDialogue(){
+    void endDialogue()
+    {
         dialogueVariables.StopListening(currentStory);
         dialoguePlaying = false;
         gameObject.SetActive(false);
         textComponent.text = "";
-        if(endScene){
+        if (endScene)
+        {
             SceneManager.LoadScene(sceneIndex);
         }
     }
 
     //Types each character out one by one
+    //Line overhang fix from here https://www.youtube.com/watch?v=8PMhFpGmsBA&ab_channel=AllenDevs 
     IEnumerator TypeLine()
     {
-        foreach(char c in currentLine.ToCharArray())
+        textComponent.text = "";
+        int alphaIndex = 0;
+        string originalText = currentLine;
+        string displayedText = "";
+
+        foreach (char c in currentLine.ToCharArray())
         {
-            textComponent.text += c;
+            alphaIndex++;
+            textComponent.text = originalText;
+            displayedText = textComponent.text.Insert(alphaIndex, "<color=#00000000>");
+            textComponent.text = displayedText;
             yield return new WaitForSeconds(textSpeed);
         }
+
+        textComponent.text = currentLine;
     }
 
     private void DisplayChoices()
     {
         List<Choice> currentChoices = currentStory.currentChoices;
 
-        if(currentChoices.Count > choices.Length){
+        if (currentChoices.Count > choices.Length)
+        {
             Debug.Log("Too many choices in ink story");
         }
 
         int index = 0;
-        foreach(Choice choice in currentChoices){
+        foreach (Choice choice in currentChoices)
+        {
             choices[index].gameObject.SetActive(true);
             choiceText[index].text = choice.text;
             index++;
         }
 
-        for(int i = index; i < choices.Length; i++){
+        for (int i = index; i < choices.Length; i++)
+        {
             choices[i].SetActive(false);
         }
 
     }
 
-    public void MakeChoice(int choiceIndex){ 
+    public void MakeChoice(int choiceIndex)
+    {
         currentStory.ChooseChoiceIndex(choiceIndex);
         //currentStory.Continue();
         continueStory();
@@ -277,11 +307,13 @@ public class Dialogue : MonoBehaviour
         }
     }*/
 
-    public void setCanAdvance(){
+    public void setCanAdvance()
+    {
         canAdvance *= -1;
     }
 
-    public void returnFromMap(){
+    public void returnFromMap()
+    {
         continueStory();
     }
 }

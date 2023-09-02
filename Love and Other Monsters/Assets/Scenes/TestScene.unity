@@ -475,10 +475,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 177695346}
     m_Modifications:
+    - target: {fileID: 6551638528167154382, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_overflowMode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: inkFile
       value: 
       objectReference: {fileID: 4900000, guid: d53eeae82aefb8646a7723e87aa69653, type: 3}
+    - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: textSpeed
+      value: 0.024
+      objectReference: {fileID: 0}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: bgAnimator
       value: 
@@ -1020,6 +1028,7 @@ GameObject:
   - component: {fileID: 1523616750}
   - component: {fileID: 1523616749}
   - component: {fileID: 1523616748}
+  - component: {fileID: 1523616751}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1093,6 +1102,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1523616751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523616747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &1850476800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1174,7 +1216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3474138110450141210, guid: d92135bf46d369e4bb9731916f063e01, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -543
+      value: -513
       objectReference: {fileID: 0}
     - target: {fileID: 3474138110450141210, guid: d92135bf46d369e4bb9731916f063e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

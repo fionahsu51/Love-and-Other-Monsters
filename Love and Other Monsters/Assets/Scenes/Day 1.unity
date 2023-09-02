@@ -1345,6 +1345,10 @@ PrefabInstance:
       propertyPath: rotationSpeed
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 6551638528167154382, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_overflowMode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6551638528226227720, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: m_Enabled
       value: 1
