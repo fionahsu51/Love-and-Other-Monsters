@@ -252,6 +252,14 @@ public class Dialogue : MonoBehaviour
 
         foreach (char c in currentLine.ToCharArray())
         {
+            //string stringCheck = Char.ToString(c);
+
+            //if (stringCheck == "*")
+            //{
+                
+            //    Debug.Log("Markup");
+            //}
+
             alphaIndex++;
             textComponent.text = originalText;
             displayedText = textComponent.text.Insert(alphaIndex, "<color=#00000000>");

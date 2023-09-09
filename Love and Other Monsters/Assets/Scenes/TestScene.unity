@@ -247,7 +247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6886704255398566075, guid: 3279af550f4b0504f9752714d6956b98, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: -0.29
       objectReference: {fileID: 0}
     - target: {fileID: 6886704255398566075, guid: 3279af550f4b0504f9752714d6956b98, type: 3}
       propertyPath: m_LocalPosition.z
@@ -478,6 +478,10 @@ PrefabInstance:
     - target: {fileID: 6551638528167154382, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: m_overflowMode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551638528167154382, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_parseCtrlCharacters
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: inkFile
