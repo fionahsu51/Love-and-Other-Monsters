@@ -5096,7 +5096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4cedd2516f11ef41a0807ec2822214c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 2
+  sceneIndex: 5
 --- !u!1 &134329109
 GameObject:
   m_ObjectHideFlags: 0
@@ -20770,7 +20770,7 @@ RectTransform:
   m_GameObject: {fileID: 922129707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14, y: 0.14, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1653615339}
@@ -20778,8 +20778,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672, y: -270}
-  m_SizeDelta: {x: 872, y: 822}
+  m_AnchoredPosition: {x: 1450, y: -755}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922129709
 MonoBehaviour:
@@ -20843,7 +20843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d62dda18578b8d541b658c0de472701c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amp: 20
+  amp: 15
   freq: 5
 --- !u!1 &925263084
 GameObject:
@@ -35955,7 +35955,7 @@ MonoBehaviour:
   timeToWaitOut: 2
   fadeout: 0
   fadein: 0
-  fadeSpeed: 0.8
+  fadeSpeed: 2
 --- !u!114 &1661034247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36092,7 +36092,7 @@ MonoBehaviour:
   - {fileID: 1110527027}
   indicator: {fileID: 922129707}
   background: {fileID: 276612351}
-  fadeSpeed: 0.8
+  fadeSpeed: 1
 --- !u!225 &1797551691
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -41094,7 +41094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68f562ff5135f1459415f763edf3bbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 9
+  sceneIndex: 4
   unhovered: {fileID: 574498721}
   hovered: {fileID: 1287652532}
 --- !u!4 &2067355136

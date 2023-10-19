@@ -115,6 +115,54 @@ I smiled, weary a smile as it was, to give her some reassurance. There was so mu
 I watched as Edith rose to retrieve our kettle, carefully pouring the hot water into the pot. She managed to regain some composure as she sat down again. 
 
 My hands gripped onto my skirt. I knew whatever she was about to reveal would not be easy to hear.
+
+EDITH:	(Discussing her Father’s Death, her grief, how she thought of Victoria, and that she suspects someone did him in.)
+
+VICTORIA:	 (Processing this information internally. Realizing there may be more going on here than she had realized, but perhaps Edith is just feeling grief. After all, it’s easier to blame someone than accept an unforeseen tragedy.)
+
+NEEDS TO BE UPDATED
+
+#format:none #portrait:edith
+But that’s all I care to say about that. You’ll forgive me for such dreadful, gruesome talk, miss, especially after such a long journey. 
+
+Oh, but there is so much that has happened since you left. Lady Elise of Linares came to town last month and there was quite the gala in the square. 
+
+We’re convinced her eyes were set on a certain young lady, one you know very well, miss. Some say an elopement may not be far off, but I say Lady Freya would never do such a thing. 
+
+She’s a respectable lady and future head of House Hawthorne. She would never tarnish her family name, not for all the riches in the world.
+
+I’ve scolded the whole lot of girls in town over it. Idle chatter, is the devil’s– oh, what was that phrase? I’ve forgotten. 
+
+More tea, miss? I must apologize for the milk, my dear. Good Mister Hunter’s prized cow fell and broke its leg last winter and we haven’t had a drop of good cream ever since! 
+
+Now, there’s talk that Old Carmichael’s the one who did it, but if you ask me– 
+
+#format:italic #portrait:none
+I wave my hand to stop her from saying anything further. I had forgotten just how much a gossiper Edith could be. Perhaps that could come in handy. 
+
+She had already mentioned enough that unsettled me. Freya as future head of the house? Impossible.
+
+#format: none #portrait: victoria
+Edith, I have some questions of my own to ask you if it’s alright.
+
+#format:italic #portrait:none
+Edith straightened her posture and hastily took a sip of her tea.
+
+#format:none #portrait:edith
+Certainly, miss. What do you wish to know?
+
+
+
+
+
+
+
+
+
+
+
+
+
 ->END
 
 

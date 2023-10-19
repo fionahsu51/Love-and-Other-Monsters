@@ -627,14 +627,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6551638528994553319, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -47
-      objectReference: {fileID: 0}
-    - target: {fileID: 6551638528994553319, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -7
-      objectReference: {fileID: 0}
     - target: {fileID: 6551638529993489094, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: m_Name
       value: Dialogue Box

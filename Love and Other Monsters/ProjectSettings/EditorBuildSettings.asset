@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 5f03cc726e266644b869a0f9f2cbfdbf
+  - enabled: 1
+    path: Assets/Scenes/Day1_Morning.unity
+    guid: 9f35049856fbaf145b49f62823932f63
   m_configObjects: {}

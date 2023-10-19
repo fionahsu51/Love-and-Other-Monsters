@@ -17,6 +17,7 @@ public class StartTextBehavior : MonoBehaviour
     public float fadeSpeed = 0.5f;
     int index = 0;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,7 @@ public class StartTextBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //WaitForStudio();
         if (fadein)
         {
             float objectAlpha = paragraphs[index].GetComponent<CanvasGroup>().alpha;
@@ -89,4 +90,8 @@ public class StartTextBehavior : MonoBehaviour
             }
         }
     }
+    //public IEnumerator WaitForStudio()
+    //{
+    //    yield return new WaitForSeconds(f);
+    //}
 }
