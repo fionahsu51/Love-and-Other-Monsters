@@ -475,6 +475,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 177695346}
     m_Modifications:
+    - target: {fileID: 528144244, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2065318435, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
+      propertyPath: inkFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 27b6f5bc4086c7f4d955b6365510ee32, type: 3}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: bgAnimator
       value: 
