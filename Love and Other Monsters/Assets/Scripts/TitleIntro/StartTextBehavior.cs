@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class StartTextBehavior : MonoBehaviour
 {
@@ -68,6 +69,7 @@ public class StartTextBehavior : MonoBehaviour
 
                 if (index >= paragraphs.Length - 1)
                 {
+                    
                     fadein = false;
                     fadeout = false;
                     background.GetComponent<CanvasGroup>().alpha = objectAlpha - (0.2f * Time.deltaTime);
@@ -79,6 +81,7 @@ public class StartTextBehavior : MonoBehaviour
                     }
                     this.GetComponent<CanvasGroup>().interactable = false;
                     this.GetComponent<CanvasGroup>().blocksRaycasts = false;
+                    
                 }
 
                 else

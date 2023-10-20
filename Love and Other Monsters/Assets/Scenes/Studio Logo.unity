@@ -481,7 +481,7 @@ MonoBehaviour:
   fadein: 0
   fadeSpeed: 2
   loadScene: 1
-  SceneToLoad: Title Screen
+  SceneToLoad: Intro
 --- !u!114 &1661034247
 MonoBehaviour:
   m_ObjectHideFlags: 0
