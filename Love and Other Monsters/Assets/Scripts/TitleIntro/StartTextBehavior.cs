@@ -81,7 +81,8 @@ public class StartTextBehavior : MonoBehaviour
                     }
                     this.GetComponent<CanvasGroup>().interactable = false;
                     this.GetComponent<CanvasGroup>().blocksRaycasts = false;
-                    
+
+                    SceneManager.LoadScene("Title Screen");
                 }
 
                 else
@@ -91,6 +92,8 @@ public class StartTextBehavior : MonoBehaviour
                     index += 1;
                 }
             }
+
+            
         }
     }
     //public IEnumerator WaitForStudio()

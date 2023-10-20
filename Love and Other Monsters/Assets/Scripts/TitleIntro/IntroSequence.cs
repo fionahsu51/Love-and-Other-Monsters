@@ -64,7 +64,7 @@ public class IntroSequence : MonoBehaviour
                 {
                     fadein = false;
                     fadeout = false;
-                    SceneManager.LoadScene(6);
+                    SceneManager.LoadScene("Title Screen");
                 }
 
                 else
