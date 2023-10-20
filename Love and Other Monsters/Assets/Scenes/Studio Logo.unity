@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToWaitIn: 1
-  timeToWaitOut: 2
+  timeToWaitOut: 2.5
   fadeout: 0
   fadein: 0
   fadeSpeed: 2

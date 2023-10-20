@@ -16,8 +16,7 @@ public class Dialogue : MonoBehaviour
     private Story currentStory;
     private string currentLine;
     private DialogueVariables dialogueVariables;
-    public bool endScene;
-    public int sceneIndex;
+    public string nextScene;
     int canAdvance = 1;
     public Map map;
 
@@ -235,10 +234,7 @@ public class Dialogue : MonoBehaviour
         dialoguePlaying = false;
         gameObject.SetActive(false);
         textComponent.text = "";
-        if (endScene)
-        {
-            SceneManager.LoadScene(sceneIndex);
-        }
+        SceneManager.LoadScene(nextScene);
     }
 
     //Types each character out one by one
