@@ -1,7 +1,7 @@
-#format:none #bg:victorias_bedroom #portrait: mathias #speaker: mathias
+#format:none #bg:victorias_bedroom #portrait: mathias_neutral #speaker: mathias
 Victoria, our esteemed guests have arrived! 
 
-#format:italic
+#format:italic #portrait: none
  Father's voice resonated through my bedroom chamber, its echoes reaching even the far corners of the room.
 
 Impatience welled up inside me as I tugged at my nursemaid Edith's dress, urging her to move faster. 
@@ -13,10 +13,10 @@ His smile and nod of approval had been accompanied by a request to prepare an ou
 #format:none #portrait: edith #speaker: edith_neutral
 Victoria, you mustn't rush. Someday, you'll become the lady of this house, and a lady never hurries to greet her guests. If you wished to avoid tardiness, you should have started getting ready earlier.
 	
-	#format:italic
+	#format:italic #portrait: none
 Her tone carried the wisdom of years of service. I pouted in response before replying.
 
-#format:none #portrait: victoria_young
+#format:none
 But I had no idea it would take this long to get dressed. I thought that wearing trousers would speed things up compared to donning a dress.
 
 #format:none #portrait: edith #speaker: edith_neutral
