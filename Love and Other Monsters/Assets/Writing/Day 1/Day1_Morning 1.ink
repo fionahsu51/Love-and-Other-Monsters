@@ -1,3 +1,5 @@
+INCLUDE ../globals.ink
+~ current_scene = "Day1_Morning"
 
 #format:italic #bg: intro_carriage
 The roof of Morgan Manor came into view like a mirage. Its black iron spikes pierced the gloomy skies, though they felt less towering as they once seemed. 

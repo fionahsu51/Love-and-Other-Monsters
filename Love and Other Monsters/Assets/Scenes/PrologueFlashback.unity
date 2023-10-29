@@ -486,10 +486,10 @@ PrefabInstance:
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: inkFile
       value: 
-      objectReference: {fileID: 4900000, guid: 0a9b7934d6aeefb48a11d45512b2a7d3, type: 3}
+      objectReference: {fileID: 4900000, guid: e7356fd37fd4eb14b9a532a0efdb779b, type: 3}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: nextScene
-      value: Day1_Noon
+      value: Day1_Morning
       objectReference: {fileID: 0}
     - target: {fileID: 6551638528226227721, guid: aa575b161da46494a89c1c4f130d7f96, type: 3}
       propertyPath: bgAnimator

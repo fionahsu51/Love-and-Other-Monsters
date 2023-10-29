@@ -1,3 +1,5 @@
+INCLUDE ../globals.ink
+~ current_scene = "Day1_Noon"
 
 #format:italic #bg:victorias_bedroom #speaker: freya_neutral #portrait: none
 Freya enters the room and I don’t believe my eyes. She towers above Edith and her shoulders are as broad as the door she entered. 
@@ -158,5 +160,7 @@ Much thanks Freya, I certainly will.
 Freya nods and catches up to Claudius. Both of them leave the Morgan Manor.
 
 Maybe Freya is right. Being in the manor is only going to make me feel worse. Perhaps I really should go into town and see what’s changed.
+
+~ current_scene = "TitleScreen"
 
 ->END

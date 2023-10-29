@@ -1,1 +1,1 @@
-VAR woman_selection = ""
+VAR current_scene = ""

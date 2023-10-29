@@ -1,4 +1,7 @@
-#format:none #bg:victorias_bedroom #portrait: mathias_neutral #speaker: mathias
+INCLUDE ../globals.ink
+~ current_scene = "PrologueFlashback"
+
+#format:none #bg:victorias_bedroom #speaker: mathias_neutral #portrait: mathias
 Victoria, our esteemed guests have arrived! 
 
 #format:italic #portrait: none
@@ -8,7 +11,9 @@ Impatience welled up inside me as I tugged at my nursemaid Edith's dress, urging
 
 Edith had designed this outfit specifically for me when I expressed a desire to explore the world beyond the manor's walls, to learn about our town and assist Father in its management when I grow older. 
 
-His smile and nod of approval had been accompanied by a request to prepare an outfit suitable for outdoor adventures with my friends. The attire allowed me the freedom to move as I pleased, in stark contrast to the restrictive dresses I usually wear.
+His smile and nod of approval had been accompanied by a request to prepare an outfit suitable for outdoor adventures with my friends. 
+
+The attire allowed me the freedom to move as I pleased, in stark contrast to the restrictive dresses I usually wear.
 
 #format:none #portrait: edith #speaker: edith_neutral
 Victoria, you mustn't rush. Someday, you'll become the lady of this house, and a lady never hurries to greet her guests. If you wished to avoid tardiness, you should have started getting ready earlier.

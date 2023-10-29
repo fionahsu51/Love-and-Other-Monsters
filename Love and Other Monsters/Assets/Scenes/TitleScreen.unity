@@ -5035,7 +5035,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 70559823}
-        m_TargetAssemblyTypeName: SceneButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: PlayButton, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -5093,10 +5093,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 70559818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4cedd2516f11ef41a0807ec2822214c, type: 3}
+  m_Script: {fileID: 11500000, guid: c0133310cceb2cd4996d5239e8f5d73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 2
 --- !u!1 &134329109
 GameObject:
   m_ObjectHideFlags: 0

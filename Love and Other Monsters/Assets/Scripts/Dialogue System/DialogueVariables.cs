@@ -31,7 +31,7 @@ public class DialogueVariables
     // value = value of Name (Example: Aveline)
     private void VariableChanged(string name, Ink.Runtime.Object value)
     {
-        PlayerPrefs.SetString("womanSelection", value.ToString());
+        PlayerPrefs.SetString("currentScene", value.ToString());
         Debug.Log("Variable changed: " + name + " = " + value);
     }
 }

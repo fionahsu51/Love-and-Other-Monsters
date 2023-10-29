@@ -232,7 +232,6 @@ public class Dialogue : MonoBehaviour
     {
         dialogueVariables.StopListening(currentStory);
         dialoguePlaying = false;
-        gameObject.SetActive(false);
         textComponent.text = "";
         SceneManager.LoadScene(nextScene);
     }

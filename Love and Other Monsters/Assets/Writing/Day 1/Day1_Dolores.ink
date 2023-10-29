@@ -1,3 +1,6 @@
+INCLUDE ../globals.ink
+~ current_scene = "Day1_Dolores"
+
 #format:italic #bg:town_square #portrait: none
 I step through the wrought-iron gates, leaving the tranquil seclusion of the Morgan Manor behind. In front of me lies a town once so familiar to me with its lively tapestry of vivid colors and bustling activity. 
 
