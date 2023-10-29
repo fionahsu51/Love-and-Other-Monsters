@@ -33,28 +33,29 @@ Indeed, it’s a bit different, but there’s still your hair and corset to atte
 I raced down the grand staircase to reach Father, who stood by the open doors with his hands extended in greeting. I followed his gaze to the sight of Uncle Claudius, Freya, and Delia disembarking from their carriage.
 
 An eager greeting formed on my lips, but I recalled Edith's counsel from earlier. I cleared my throat and straightened my posture, offering a respectful bow instead. 
-	#format:none #bg:morgan_manor_front  #portrait: victoria_young #speaker-c1: claudius_neutral #speaker-c: freya_neutral_young #speaker-cr: delia_neutral
+	
+#format:none #bg:morgan_manor_front  #portrait: young_victoria #speaker-c1: young_claudius_smile #speaker-c: young_freya_neutral #speaker-cr: delia_neutral
 	Uncle Claudius, Freya, Delia, you've arrived.
 
-	#format:none #portrait: mathias #speaker-1: mathias_smile #speaker-c1: claudius_neutral #speaker-c: freya_neutral_young #speaker-cr: delia_neutral
+	#format:none #portrait: mathias
 
 Ah, Claudius, Freya, and Delia.
 
-	#format:italic #portrait: none #speaker: mathias_smile
+	#format:italic #portrait: none #speaker-1: mathias_smile
 	Father echoed my words with a hint of laughter in his voice as he tousled my hair. 
 	
-#format:none #portrait: victoria_young
+#format:none #portrait: young_victoria
 	Father! Edie worked so hard on my hair.
 
 #format:italic #portrait: none
 I protested and attempted to smooth down my ruffled locks.
 
-#format:italic #portrait: none #speaker-c1: freya_neutral_young #speaker-cr: delia_neutral
+#format:italic #portrait: none #speaker-c1: young_freya_neutral #speaker-cr: delia_neutral
 Freya and Delia acknowledged our presence with a nod, while Uncle Claudius and Father exchanged their secret handshake—a ritual shrouded in the camaraderie of years past. 
 
 As Father invited Uncle Claudius indoors, Freya, Delia, and I lingered by the entrance to the manor.
 
-#format:none #portrait: victoria_young
+#format:none #portrait: young_victoria
 Have you seen Dolores?
 
 #format:none #portrait: delia #speaker: delia_neutral
@@ -62,12 +63,12 @@ Not yet, but you know Dolores.
 
 She’ll appear when we least expect her. She’s bound to show up, I’m sure.
 
-#format:italic #portrait: none #speaker-c1: delia_neutral #speaker-cr: freya_neutral_young
+#format:italic #portrait: none #speaker-c1: delia_neutral #speaker-cr: young_freya_neutral
 Delia shook her head and spoke in her usual gentle tone as Freya shook her head as well, reaffirming Delia’s words.
 
 I chuckled, acknowledging the unpredictable nature of our friend.
 
-#format: none #portrait: victoria_young
+#format: none #portrait: young_victoria
 You’re absolutely right. I just hope she doesn’t arrive too late and miss all the fun.
 
 #format:italic #portrait: none
@@ -86,24 +87,24 @@ Before I could reply, Edith made her entrance, gracefully acknowledging our gues
 
 	Everything is ready for your game of croquet, and I’ll bring out some snacks and refreshments shortly. Would earl grey tea suffice?
 
-	#format:none #portrait: claudius_young #speaker: claudius_smile_young
+	#format:none #portrait: young_claudius #speaker: young_claudius_smile
 	Yes, that sounds delightful, Edith.
 
-	#format:none #portrait: claudius_young #speaker: claudius_neutral_young
-	Well, then, Matthias?
+	#format:none #portrait: young_claudius #speaker: young_claudius_neutral
+	Well, then, Mathias?
 
-	#format:italic #portrait: none #speaker-c1: claudius_neutral_young #speaker-cr: matthias_neutral
+	#format:italic #portrait: none #speaker-c1: young_claudius_neutral #speaker-cr: mathias_neutral
 	Uncle Claudius gestured for Father to lead the way to the gardens.
 
 	As we were about to follow suit, Dolores burst through the gates, her exuberant voice heralding her arrival.
 
-	#format:none #portrait: dolores_young #speaker: dolores_excited_young
+	#format:none #portrait: young_dolores #speaker: young_dolores_excited
 	I’m hereeee~
 
 	#format:italic #portrait: none
 	She halted abruptly upon seeing me, her eyes widening with delight.
 
-	#format:none #portrait: dolores_young #speaker: dolores_excited_young
+	#format:none #portrait: young_dolores #speaker: dolores_excited_young
 	Victoria! Oh, my, you look quite dashing in those trousers!
 
 	And Freya, you’re as dashing as ever! 
