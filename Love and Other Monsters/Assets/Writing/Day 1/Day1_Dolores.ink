@@ -6,7 +6,9 @@ I step through the wrought-iron gates, leaving the tranquil seclusion of the Mor
 
 The late afternoon sun bathes the cobblestone streets in a warm, golden glow, casting long shadows beneath the tall, intricately designed lampposts.
 
-My eyes are immediately drawn to a grand, ornate clock tower that soars into the sky, its hands dutifully marking the passage of time. What once seemed to be an infinite tower that stretched endlessly into space now seems rather small in retrospect. 
+My eyes are immediately drawn to a grand, ornate clock tower that soars into the sky, its hands dutifully marking the passage of time. 
+
+What once seemed to be an infinite tower that stretched endlessly into space now seems rather small in retrospect. 
 
 People scurry about its base, and I catch a glimpse of children running around, their laughter filling the air. A wave of nostalgia washes over me as memories from the past flash before my eyes. 
 
@@ -188,5 +190,7 @@ Oh, yes, I’d love one, thank you.
 Dolores gracefully plucks a lit candle from the shelves, its flickering glow dancing across her features. 
 
 She extends it toward me with a gentleness reserved for fragile things, and as our fingertips graze each other, a shock courses through me. Yet, even as the spark ignites, it’s subdued by the blizzard raging within my heart. 
+
+~ current_scene = "TitleScreen"
 
 ->END

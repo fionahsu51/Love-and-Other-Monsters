@@ -161,6 +161,5 @@ Freya nods and catches up to Claudius. Both of them leave the Morgan Manor.
 
 Maybe Freya is right. Being in the manor is only going to make me feel worse. Perhaps I really should go into town and see what’s changed.
 
-~ current_scene = "TitleScreen"
 
 ->END
