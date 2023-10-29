@@ -28,7 +28,9 @@ I recall being told a long time ago that this is a tradition that the townspeopl
 #format:italic #portrait: none
 Shaking my head, I quickly turn my attention to the people of the town. 
 
-Street vendors peddle their wares from stalls adorned with blue and white striped awnings, the smell of freshly baked bread and blooming flowers mingles with the faint scent of tobacco in the air whilst ladies and gentlemen browse and chat animatedly throughout the hustle and bustle of Castelonia’s town square.
+Street vendors peddle their wares from stalls adorned with blue and white striped awnings while the smell of freshly baked bread and blooming flowers mingles with the faint scent of tobacco in the air. 
+
+Through it all, ladies and gentlemen browse and chat animatedly throughout the hustle and bustle of Castelonia’s town square.
 
 #format:italic #bg:town_outskirts #portrait: none
 Slowly, I make my way to the outskirts of the town where the hustle and bustle of Castelonia doesn’t quite reach. 
