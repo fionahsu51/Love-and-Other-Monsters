@@ -119,11 +119,37 @@ I watched as Edith rose to retrieve our kettle, carefully pouring the hot water 
 
 My hands gripped onto my skirt. I knew whatever she was about to reveal would not be easy to hear.
 
-EDITH:	(Discussing her Father’s Death, her grief, how she thought of Victoria, and that she suspects someone did him in.)
+#format:none #portrait:edith
+Please forgive me, my lady. I do not wish to bring upon you such sorrow. It must be heartbreaking to hear of your Father, God rest his soul, with his passing so untimely as it was. I scarcely believe it myself.
 
-VICTORIA:	 (Processing this information internally. Realizing there may be more going on here than she had realized, but perhaps Edith is just feeling grief. After all, it’s easier to blame someone than accept an unforeseen tragedy.)
+He was ever the picture of good health even unto his– Forgive me child...
 
-NEEDS TO BE UPDATED
+#format:italic #portrait:none
+Edith fixed her eyes to a nearby window, as if to withhold herself from speaking further. I want to comfort her in some way, but I can no longer kiss her cheek or hug her skirt as before. 
+
+She is too far away to even touch. I could say some soft words of understanding, but my throat feels too parched. I pick up my cup and continue sipping my tea, listening to the crackling of the fire.
+
+It must have been Edith who discovered Father’s body. The very thought gnaws at my soul. I imagined her horrified expression at the cold touch of his lifeless hand.
+ 
+It has not been easy for either of us. Suddenly, an obscure passion takes over Edith.
+
+#format:none #portrait:edith
+You will pardon my saying such a ghastly notion…but I must confess I suspect foul play. Your Father was skilled in both mind and sword, and well respected for it.
+
+Nothing, not even the heartache of a widower in his empty nest would break his lively spirit. The nature of his leaving this earth is mysterious, most mysterious indeed.
+
+I advise you– Lady Victoria– be cautious. It is an unconscionable thing to believe I know, but it cannot be ruled out.
+
+#format:italic #portrait:none
+I feel my heart sink to a greater depth than I have ever felt before. Father, murdered? His death alone is so much to bear.
+
+He was always beloved by everyone, what could bring someone to do such a thing? No, it couldn’t be possible.
+
+Edith is in shock at the news, perhaps sensationalizing her grief. It is far easier to blame someone else than accept unforeseen tragedy.
+
+Still, I cannot stop the tears welling up in my eyes. I sense Edith knows this too. She sits up in her chair and speaks to distract me.
+
+There can be no shedding of tears as Master of the manor.
 
 #format:none #portrait:edith
 But that’s all I care to say about that. You’ll forgive me for such dreadful, gruesome talk, miss, especially after such a long journey. 
