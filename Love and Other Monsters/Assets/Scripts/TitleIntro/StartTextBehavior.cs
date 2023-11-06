@@ -82,7 +82,7 @@ public class StartTextBehavior : MonoBehaviour
                     this.GetComponent<CanvasGroup>().interactable = false;
                     this.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-                    SceneManager.LoadScene("Title Screen");
+                    SceneManager.LoadScene("TitleScreen");
                 }
 
                 else

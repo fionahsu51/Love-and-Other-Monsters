@@ -37,7 +37,7 @@ I wanted so desperately to run to her and sob into her black gown. Instead, I he
 
 Time shaped her face in creases and gray strands, but there was a shrewdness in her features that was not there before... and a sorrow in her usually cheerful tone.
 
-*   ["It's good to see you, Edie."]
+*   [It's good to see you, Edie.]
     #format: none #portrait: victoria
     It's good to see you, Edie.
 
@@ -56,7 +56,7 @@ Time shaped her face in creases and gray strands, but there was a shrewdness in 
     It was as if a balm had been placed upon my grieving heart, yet I could not help but feel as if I was being rushed for more than shelter from the cold. 
     
     ->inside_manor
-*   ["Good afternoon, Edith."]
+*   [Good afternoon, Edith.]
     #format: none #portrait: victoria
     Good afternoon, Edith.
 
@@ -78,7 +78,7 @@ Time shaped her face in creases and gray strands, but there was a shrewdness in 
     
     
 =inside_manor
-#bg:victorias_bedroom #format:italic #portrait:none 
+#bg:morgan_manor_den #format:italic #portrait:none 
 I stepped into the sitting room and rested near the fireplace, smoothing the folds of my dress. 
 
 The house felt far emptier than it did in the old days. People always came in and out of the house to enquire after my father’s guidance and leadership. 
