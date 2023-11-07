@@ -153,27 +153,21 @@ public class Dialogue : MonoBehaviour
             {
                 //Speakers
                 case SPEAKER_TAG:
-                    StartCoroutine(speakerCTransition.FadeIn());
                     speakerAnimator.Play(val);
                     break;
                 case SPEAKER_CENTER_TAG:
-                    StartCoroutine(speakerCTransition.FadeIn());
                     speakerAnimator.Play(val);
                     break;
                 case SPEAKER_LEFT_TAG:
-                    StartCoroutine(speakerLTransition.FadeIn());
                     speakerLAnimator.Play(val);
                     break;
                 case SPEAKER_C_LEFT_TAG:
-                    StartCoroutine(speakerCLTransition.FadeIn());
                     speakerCLAnimator.Play(val);
                     break;
                 case SPEAKER_C_RIGHT_TAG:
-                    StartCoroutine(speakerCRTransition.FadeIn());
                     speakerCRAnimator.Play(val);
                     break;
                 case SPEAKER_RIGHT_TAG:
-                    StartCoroutine(speakerRTransition.FadeIn());
                     speakerRAnimator.Play(val);
                     break;
 

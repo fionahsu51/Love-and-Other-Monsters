@@ -20,21 +20,21 @@ public class SpriteTransition : MonoBehaviour
     // Fades sprite in and moves them in very slightly from the left
     public IEnumerator FadeIn()
     {
-        Vector3 initpos = transform.position;
-        Vector3 move = new Vector3(0.05f, 0, 0);
-        Vector3 start = new Vector3(0.5f, 0, 0);
-        transform.position -= start;
+        //Vector3 initpos = transform.position;
+        //Vector3 move = new Vector3(0.05f, 0, 0);
+        //Vector3 start = new Vector3(0.5f, 0, 0);
+        //transform.position -= start;
         Color tmp = yourSpriteRenderer.color;
         tmp.a = 0;
         yourSpriteRenderer.color = tmp;
         float alphaVal = yourSpriteRenderer.color.a;
 
-        while (transform.position.x < initpos.x)
+        while (yourSpriteRenderer.color.a < 1)
         {
             alphaVal += 0.1f;
             tmp.a = alphaVal;
             yourSpriteRenderer.color = tmp;
-            transform.position += move;
+            //transform.position += move;
             yield return new WaitForSeconds(0.01f); // update interval
         }
 

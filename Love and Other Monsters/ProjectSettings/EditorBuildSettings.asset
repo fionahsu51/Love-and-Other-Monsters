@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen/Studio Logo.unity
+    guid: fef4dffd25d26ca48ba92f0b079790d1
+  - enabled: 1
     path: Assets/Scenes/Title Screen/TitleScreen.unity
     guid: 3962dd7f189a70240bddae1a1eb188e5
   - enabled: 0
@@ -28,7 +31,7 @@ EditorBuildSettings:
     guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: bb4b4155720d8fe4c84fd953c3968140
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -38,9 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day1/Day1_Morning.unity
     guid: 9f35049856fbaf145b49f62823932f63
-  - enabled: 1
-    path: Assets/Scenes/Title Screen/Studio Logo.unity
-    guid: fef4dffd25d26ca48ba92f0b079790d1
   - enabled: 1
     path: Assets/Scenes/Title Screen/Intro.unity
     guid: 726ebae3e39c2d047afc848a88991fcc

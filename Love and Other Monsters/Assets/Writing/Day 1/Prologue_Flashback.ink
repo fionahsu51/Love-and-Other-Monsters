@@ -42,7 +42,7 @@ Nevertheless, sleep still beckons me to follow it a little while longer.
 
 ->flashback
 ===flashback===
-#format:none #bg:victorias_bedroom #speaker: mathias_smile #portrait: mathias
+#format:none #bg:victorias_bedroom #speaker-transition:a #speaker: mathias_smile #portrait: mathias
 Victoria, our esteemed guests have arrived! 
 
 #format:italic #portrait: none
@@ -56,7 +56,7 @@ His smile and nod of approval had been accompanied by a request to prepare an ou
 
 The attire allowed me the freedom to move as I pleased, in stark contrast to the restrictive dresses I usually wear.
 
-#format:none #portrait: edith #speaker: edith_neutral
+#format:none #portrait: edith #speaker-transition:a #speaker: edith_neutral
 Victoria, you mustn't rush. Someday, you'll become the lady of this house, and a lady never hurries to greet her guests. If you wished to avoid tardiness, you should have started getting ready earlier.
 	
 	#format:italic #portrait: none
@@ -75,14 +75,14 @@ I raced down the grand staircase to reach Father, who stood by the open doors wi
 
 An eager greeting formed on my lips, but I recalled Edith's counsel from earlier. I cleared my throat and straightened my posture, offering a respectful bow instead. 
 
-#format:none #bg:morgan_manor_front  #portrait: victoria #speaker-cl: young_claudius_smile #speaker: young_freya_neutral #speaker-cr: young_delia_neutral
+#format:none #bg:morgan_manor_front  #portrait: victoria #speaker-transition:a #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: young_claudius_smile #speaker: young_freya_neutral #speaker-cr: young_delia_neutral
 	Uncle Claudius, Freya, Delia, you've arrived.
 
 	#format:none #portrait: mathias
 
     Ah, Claudius, Freya, and Delia.
 
-	#format:italic #portrait: none #speaker-l: mathias_smile #speaker-cl: none #speaker: young_claudius_neutral #speaker-cr: young_freya_neutral #speaker-r: young_delia_neutral
+	#format:italic #portrait: none #speaker-l: mathias_smile #speaker-cl: none #speaker-l-transition:a #speaker-transition:a  #speaker-r-transition:a #speaker: young_claudius_neutral #speaker-cr: none #speaker-r: young_delia_neutral
 	Father echoed my words with a hint of laughter in his voice as he tousled my hair. 
 	
 #format:none #portrait: victoria
@@ -91,7 +91,7 @@ An eager greeting formed on my lips, but I recalled Edith's counsel from earlier
 #format:italic #portrait: none
 I protested and attempted to smooth down my ruffled locks.
 
-#format:italic #portrait: none #speaker: none #speaker-l: none #speaker-r: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
+#format:italic #portrait: none #speaker: none #speaker-l: none #speaker-r: none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
 Freya and Delia acknowledged our presence with a nod, while Uncle Claudius and Father exchanged their secret handshake—a ritual shrouded in the camaraderie of years past. 
 
 As Father invited Uncle Claudius indoors, Freya, Delia, and I lingered by the entrance to the manor.
@@ -113,7 +113,7 @@ You’re absolutely right. I just hope she doesn’t arrive too late and miss al
 #format:italic #portrait: none #speaker-cr: none #speaker-cl: none
 Father cleared his throat, garnering our attention.
 
-#format: none #portrait: mathias #speaker: mathias_neutral
+#format: none #portrait: mathias #speaker-transition:a #speaker: mathias_neutral
 Girls, please ensure you stay within the manor grounds, alright?
 
 Claudius and I will be playing croquet in the gardens.
@@ -121,24 +121,24 @@ Claudius and I will be playing croquet in the gardens.
 #format:italic #portrait: none
 Before I could reply, Edith made her entrance, gracefully acknowledging our guests.
 
-	#format:none #portrait: edith #speaker: edith_neutral
+	#format:none #portrait: edith #speaker-transition:a #speaker: edith_neutral
 	Master Claudius, it’s a pleasure to see you again.
 
 	Everything is ready for your game of croquet, and I’ll bring out some snacks and refreshments shortly. Would earl grey tea suffice?
 
-	#format:none #portrait: young_claudius #speaker: young_claudius_smile
+	#format:none #portrait: young_claudius #speaker-transition:a #speaker: young_claudius_smile
 	Yes, that sounds delightful, Edith.
 
 	#format:none #portrait: young_claudius #speaker: young_claudius_neutral
 	Well, then, Mathias?
 
-	#format:italic #portrait: none #speaker: none #speaker-cl: young_claudius_neutral #speaker-cr: mathias_neutral
+	#format:italic #portrait: none #speaker: none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: young_claudius_neutral #speaker-cr: mathias_neutral
 	Uncle Claudius gestured for Father to lead the way to the gardens.
     
     #speaker-cl: none #speaker-cr: none
 	As we were about to follow suit, Dolores burst through the gates, her exuberant voice heralding her arrival.
 
-	#format:none #portrait: dolores #speaker: young_dolores_excited
+	#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_excited
 	I’m hereeee~
 
 	#format:italic #portrait: none
@@ -166,10 +166,10 @@ Very well.
 
 We can pretend to have a pretend tower outdoors, and you two can compete to see who can rescue us first!
 
-#format:italic #portrait: none #speaker:none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_smile
+#format:italic #portrait: none #speaker:none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: young_freya_neutral #speaker-cr: young_delia_smile
 I exchanged glances with Freya and Delia to gauge their reactions. In response, Freya simply shrugged.
 
-#format:none #portrait: freya #speaker: young_freya_neutral #speaker-cl: none #speaker-cr: none
+#format:none #portrait: freya #speaker-transition:a #speaker: young_freya_neutral #speaker-cl: none #speaker-cr: none
 Sounds like fun. It will give me a chance to hone my scouting skills.
 
 #format:italic #portrait: none
@@ -178,15 +178,15 @@ I nodded in agreement.
 #format:none #portrait: victoria
 Yes, that sounds entertaining. Our gardens are vast, so we can play far from where Father and Uncle Claudius are enjoying their game. We can easily fetch refreshments from Edith when needed.
 
-#format:none #portrait: dolores #speaker: young_dolores_neutral
+#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_neutral
 Splendid!
 
 Lead the way, Victoria.
 
-#format:italic #portrait: none
+#format:italic #portrait: none #speaker: none
 I realized that Father and Uncle Claudius had departed during our conversation with Dolores. I ushered Dolores inside and closed the front doors behind her before guiding everyone to the rear gardens.
 
-#format:none #bg:morgan_manor_garden  #portrait: dolores #speaker: young_dolores_excited
+#format:none #bg:morgan_manor_garden #speaker-transition:a #portrait: dolores #speaker: young_dolores_excited
 Whoaaa, this is the first time I’ve seen what’s in the back of your manor, Victoria. It’s so beautiful out here!
 
 #format:none #portrait: victoria
@@ -194,13 +194,13 @@ Yes, we often play indoors.
 	
 	Edie does a wonderful job of keeping everything nice and pretty out here.
 
-	#format:none #portrait: freya #speaker: young_freya_shrug
+	#format:none #portrait: freya #speaker-transition:a #speaker: young_freya_shrug
 	Well, I suppose this is indeed splendid, but our garden at the Hawthorne Manor has more perks.
 
 	#format:italic #portrait: none
 	Despite what she said, there was a tinge of amusement in her voice that suggested otherwise.
 
-	#format:none #portrait: delia #speaker: young_delia_thinking
+	#format:none #portrait: delia #speaker-transition:a #speaker: young_delia_thinking
 	Maybe, but I do wish Father would let the manor be more lively.
 
 	#format:none #portrait: victoria #speaker: none
@@ -208,7 +208,7 @@ Yes, we often play indoors.
 
 	Dolores, you wanted to play Sardines, right?
 
-	#format:none #portrait: dolores #speaker: young_dolores_pout
+	#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_pout
 It’s not Sardines, you two are going to save us from our prison! 
 
 Wherever that may be.	
@@ -221,31 +221,31 @@ Wherever that may be.
 
 Then, after a minute, you two will have to come find and save us.
 
-#format:none #portrait: freya #speaker: young_freya_snarky
+#format:none #portrait: freya #speaker-transition:a #speaker: young_freya_snarky
 So… Sardines.
 
-#format:none #portrait: dolores #speaker: young_dolores_pout
+#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_pout
 Will you two please use your imaginations? It is not Sardines!
 
-#format:none #portrait: delia #speaker: young_delia_smile
+#format:none #portrait: delia #speaker-transition:a #speaker: young_delia_smile
 	Alright, alright, it’s not Sardines. Let’s find a suitable spot to count, so the Great Princess Dolores and I can get whisked away by an evil monster.
 
-	#format:none #portrait: dolores #speaker: young_dolores_excited
+	#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_excited
 	Oooh, I like the sound of that.
 
-	#format:italic #bg:morgan_manor_clearing  #portrait: none
+	#format:italic #bg:morgan_manor_clearing  #portrait: none #speaker: none
 	We finally walked enough to find a clearing, further from the gardens.
 
 
 
-	#format:none #portrait: dolores #speaker: young_dolores_neutral
+	#format:none #portrait: dolores #speaker-transition:a #speaker: young_dolores_neutral
 	Okay, I think this is far enough.
 
 	Victoria, Freya, stay here and count to sixty. No cheating!
 
 	Delia, come with me~
 
-	#format:italic #portrait: none #speaker: none #speaker-cl: young_dolores_excited #speaker-cr: young_delia_smile
+	#format:italic #portrait: none #speaker: none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: young_dolores_excited #speaker-cr: young_delia_smile
 	Dolores grabbed Delia’s hand and started to back away from us.
 
 	I rolled my eyes, but her energy was contagious and I couldn’t help but crack a smile.
@@ -253,7 +253,7 @@ Will you two please use your imaginations? It is not Sardines!
 	#format:none #portrait: victoria
 	Alright, alright, we’ll be here. Please don’t break anything and get me in trouble while you’re hiding.
 
-	#format:none #portrait: dolores #speaker-cl:none #speaker-cr:none #speaker: young_dolores_pout
+	#format:none #portrait: dolores #speaker-cl:none #speaker-cr:none #speaker-transition:a #speaker: young_dolores_pout
 	Getting kidnapped!
 
 	#format:none #portrait: victoria
@@ -262,7 +262,7 @@ Will you two please use your imaginations? It is not Sardines!
 	#format:none #portrait: dolores #speaker: young_dolores_excited
 	I won’t! I promise!
 
-#format:italic #portrait: none #speaker: young_freya_shrug
+#format:italic #portrait: none #speaker-transition:a #speaker: young_freya_shrug
 With that, Freya and I turned our backs and started counting to sixty aloud. I could hear the rustling of footsteps behind me as Delia and Dolores executed their elaborate ‘kidnapping’ scheme. 
 
 Finally, after what felt like an eternity, we reached sixty. I turned to Freya.
@@ -310,10 +310,10 @@ Not wanting to interrupt their game, I began to leave, until my name came up in 
 
 ->debug_point
 ===debug_point===
-	#format:none #portrait: young_claudius #speaker: young_claudius_smile
+	#format:none #portrait: young_claudius #speaker-transition:a #speaker: young_claudius_smile
 	Victoria’s such a dear now, isn’t she? She’s still very young, but she’s already starting to look more and more like her mother.
 
-	#format:none #portrait: mathias #speaker:none #speaker-cl: mathias_smile #speaker-cr: young_claudius_neutral
+	#format:none #portrait: mathias #speaker:none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: mathias_smile #speaker-cr: young_claudius_neutral
 	She is, isn’t she? I’m always worried it’s a little lonely for her here at the Morgan Manor, but she’s a champ. I’m glad she has Freya and Delia.
 
 	#format:none #portrait: young_claudius #speaker-cl: mathias_neutral
@@ -380,18 +380,18 @@ No harm done, Victoria.
 
 You’re always welcome to join us, but we don’t want to keep you from your game with Dolores and the others.
 
-#format:italic #portrait: none #speaker-cl: edith_neutral #speaker-cr: cloaked-man
+#format:italic #portrait: none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: edith_neutral #speaker-cr: cloaked_man
 As I was about to respond, Edith approached hastily with a stranger in tow. Despite the broad daylight, the man was shrouded in a cloak and had a strange symbol on the back of his hand. 
 
 Father noticed my gaze and gently pushed me towards Uncle Claudius as soon as he saw the man. 
 
-#format:none #portrait: cloaked_man #speaker-cl:none #speaker-cr:none #speaker: cloaked_man
+#format:none #portrait: cloaked_man #speaker-transition:a #speaker-cl:none #speaker-cr:none #speaker: cloaked_man
 A word, sir.
 
-#format:italic #portrait: none #speaker:none #speaker-cl: mathias_concerned #speaker-cr: cloaked_man
+#format:italic #portrait: none #speaker:none #speaker-cl-transition:a #speaker-cr-transition:a #speaker-cl: mathias_concerned #speaker-cr: cloaked_man
 Father nodded and approached the cloaked man, leaning in to listen as the man whispered something into his ear. I noticed Father’s expression darkened for a brief moment before he turned to address Uncle Claudius and me.
 
-#format:none #portrait: mathias #speaker: mathias_neutral #speaker-cl:none #speaker-cr: none
+#format:none #portrait: mathias #speaker-transition:a #speaker: mathias_neutral #speaker-cl:none #speaker-cr: none
 Victoria, Claudius, I’m sorry, but an urgent matter has arisen; I'll have to cut our conversation short.
 
 #format:none #portrait: victoria
@@ -402,7 +402,7 @@ I recalled the times Father had to take work trips, leaving me in the care of Ed
 
 Father offered me a warm smile despite the urgency of the situation.
 
-#format:none #portrait: mathias #speaker: mathias_smile
+#format:none #portrait: mathias #speaker-transition:a #speaker: mathias_smile
 Yes, but I will be back, hopefully by tonight, if not tomorrow morning. 
 
 Don’t stay out too long, you hear? Listen to Edith and Uncle Claudius.
@@ -466,7 +466,7 @@ Amidst the bustling early risers preparing their wares, I saw the shape of a you
 
 She was firmly shaking the hand of a merchant, who from his stature, seemed eager to see her. I pressed my forehead against the glass, hoping I could catch a better look at her face.
 
-#speaker: freya_surprised
+#speaker-transition:a #speaker: freya_surprised 
 In an instant— in such a brief, brief moment— our eyes met.
 
 #speaker: none

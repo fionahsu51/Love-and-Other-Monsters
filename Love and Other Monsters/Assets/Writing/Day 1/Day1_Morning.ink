@@ -25,7 +25,7 @@ One painful ponderance after another– I couldn’t help it. Being home was lik
 
 I was not more than a minute out of the carriage that I was received at the manor’s wide oak doors. How comforting it was to see such a familiar, loving face again.
 
-#format:none #bg: morgan_manor_front #portrait:edith #speaker:edith_neutral
+#format:none #bg: morgan_manor_front #portrait:edith #speaker-transition:a #speaker:edith_neutral
 Miss Victoria! What a sight for sore eyes you are, child. I had not expected you for another day, what with all this dreadful weather. 
 
 #format:italic #portrait:none
@@ -91,7 +91,7 @@ Now it was hardly a flicker. The windows were shut and there was little light to
 
 Perhaps the storm had kept everyone away, but Edith was the only servant I had seen thus far. Surely there were more people scurrying about downstairs.
 
-#speaker:edith_neutral
+#speaker-transition:a #speaker:edith_neutral
 Edith came in with kindling for the fire. I watched her kneel towards the fireplace. She was more nimble than I anticipated, able to crouch down and up again with little effort. 
 
 I once again heard the sound of keys rustling at her side.
@@ -259,7 +259,7 @@ I had not expected anyone to call upon the house today but you, miss. Do excuse 
 #format:italic #portrait:none #speaker: none
 I watched Edith leave me alone in the sitting room and the crackling of the fire. I was content to wallow inside with Edith and my grief. Whoever it was, I had fully intended to dismiss them. 
 
-#speaker: edith_surprised
+#speaker-transition:a #speaker: edith_surprised
 Edith returned with an even more astonished look on her face, I stood up on the spot.
 
 #format:none #portrait:edith
