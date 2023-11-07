@@ -222,7 +222,7 @@ public class Dialogue : MonoBehaviour
                     gameObject.SetActive(false);
                     break;
                 default:
-                    Debug.Log("Tag not handled");
+                    Debug.Log("Tag not handled " + val);
                     break;
             }
         }

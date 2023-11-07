@@ -3,13 +3,6 @@
 Although she is much bigger, Freya still looks as nervous as the little girl who was scared of being punished for what she just broke.
 
 * [How have you been?]
-    #format:none #portrait: victoria
-     It’s been a long time. How are you keeping? 
-    #format:italic  #portrait: none
-     I wish it wasn’t so hard to look at Freya while I speak. 
-     
-    #speaker: freya_eyes_closed
-     Freya sighs, just before she speaks
 
     #format:none #speaker: freya_uncertain #portrait: freya
     I’ve continued my training as a monster hunter with my father. He has been very keen on me continuing the family tradition. As I understood it, you finished your studies?
