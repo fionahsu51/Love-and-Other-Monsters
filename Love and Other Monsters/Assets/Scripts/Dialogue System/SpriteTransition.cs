@@ -8,7 +8,7 @@ public class SpriteTransition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class SpriteTransition : MonoBehaviour
     // Fades sprite in and moves them in very slightly from the left
     public IEnumerator FadeIn()
     {
+        Vector3 initpos = transform.position;
         Vector3 move = new Vector3(0.05f, 0, 0);
         Vector3 start = new Vector3(0.5f, 0, 0);
         transform.position -= start;
@@ -28,7 +29,7 @@ public class SpriteTransition : MonoBehaviour
         yourSpriteRenderer.color = tmp;
         float alphaVal = yourSpriteRenderer.color.a;
 
-        while (yourSpriteRenderer.color.a < 1)
+        while (transform.position.x < initpos.x)
         {
             alphaVal += 0.1f;
             tmp.a = alphaVal;
@@ -36,5 +37,6 @@ public class SpriteTransition : MonoBehaviour
             transform.position += move;
             yield return new WaitForSeconds(0.01f); // update interval
         }
+
     }
 }

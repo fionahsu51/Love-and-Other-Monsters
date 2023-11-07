@@ -1,7 +1,6 @@
 INCLUDE ../globals.ink
 ~ current_scene = "PrologueFlashback"
 
-->flashback
 #format:italic #bg: intro_carriage
 Within the confines of my carriage, I feel more asleep than awake. Cities and towns; farmhouses and fields; woods and mountains all drift before my weary eyes. 
 
@@ -75,8 +74,7 @@ Indeed, it’s a bit different, but there’s still your hair and corset to atte
 I raced down the grand staircase to reach Father, who stood by the open doors with his hands extended in greeting. I followed his gaze to the sight of Uncle Claudius, Freya, and Delia disembarking from their carriage.
 
 An eager greeting formed on my lips, but I recalled Edith's counsel from earlier. I cleared my throat and straightened my posture, offering a respectful bow instead. 
-->claudius_arrival
-===claudius_arrival===
+
 #format:none #bg:morgan_manor_front  #portrait: victoria #speaker-cl: young_claudius_smile #speaker: young_freya_neutral #speaker-cr: young_delia_neutral
 	Uncle Claudius, Freya, Delia, you've arrived.
 
@@ -84,7 +82,7 @@ An eager greeting formed on my lips, but I recalled Edith's counsel from earlier
 
     Ah, Claudius, Freya, and Delia.
 
-	#format:italic #portrait: none #speaker-l: mathias_smile
+	#format:italic #portrait: none #speaker-l: mathias_smile #speaker-cl: none #speaker: young_claudius_neutral #speaker-cr: young_freya_neutral #speaker-r: young_delia_neutral
 	Father echoed my words with a hint of laughter in his voice as he tousled my hair. 
 	
 #format:none #portrait: victoria
@@ -93,7 +91,7 @@ An eager greeting formed on my lips, but I recalled Edith's counsel from earlier
 #format:italic #portrait: none
 I protested and attempted to smooth down my ruffled locks.
 
-#format:italic #portrait: none #speaker: none #speaker-l: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
+#format:italic #portrait: none #speaker: none #speaker-l: none #speaker-r: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
 Freya and Delia acknowledged our presence with a nod, while Uncle Claudius and Father exchanged their secret handshake—a ritual shrouded in the camaraderie of years past. 
 
 As Father invited Uncle Claudius indoors, Freya, Delia, and I lingered by the entrance to the manor.
@@ -112,7 +110,7 @@ I chuckled, acknowledging the unpredictable nature of our friend.
 #format: none #portrait: young_victoria
 You’re absolutely right. I just hope she doesn’t arrive too late and miss all the fun.
 
-#format:italic #portrait: none
+#format:italic #portrait: none #speaker-cr: none #speaker-cl: none
 Father cleared his throat, garnering our attention.
 
 #format: none #portrait: mathias #speaker: mathias_neutral
@@ -134,9 +132,10 @@ Before I could reply, Edith made her entrance, gracefully acknowledging our gues
 	#format:none #portrait: young_claudius #speaker: young_claudius_neutral
 	Well, then, Mathias?
 
-	#format:italic #portrait: none #speaker-cl: young_claudius_neutral #speaker-cr: mathias_neutral
+	#format:italic #portrait: none #speaker: none #speaker-cl: young_claudius_neutral #speaker-cr: mathias_neutral
 	Uncle Claudius gestured for Father to lead the way to the gardens.
-
+    
+    #speaker-cl: none #speaker-cr: none
 	As we were about to follow suit, Dolores burst through the gates, her exuberant voice heralding her arrival.
 
 	#format:none #portrait: dolores #speaker: young_dolores_excited
@@ -145,14 +144,14 @@ Before I could reply, Edith made her entrance, gracefully acknowledging our gues
 	#format:italic #portrait: none
 	She halted abruptly upon seeing me, her eyes widening with delight.
 
-	#format:none #portrait: dolores #speaker: young_dolores_excited
+	#format:none #portrait: dolores
 	Victoria! Oh, my, you look quite dashing in those trousers!
 
 	And Freya, you’re as dashing as ever! 
 
 	Nobody informed me that Delia and I would be the only ones wearing dresses today.
 
-	#format:italic #portrait: none
+	#format:italic #portrait: none #speaker:young_dolores_neutral
 	Dolores scrutinized us, her lips forming a playful pout. Sensing her penchant for theatricality, I began to apologize, but was interrupted as she brightened again, clapping her hands together.
 
 	#format:none #portrait: dolores #speaker: young_dolores_excited
@@ -167,10 +166,10 @@ Very well.
 
 We can pretend to have a pretend tower outdoors, and you two can compete to see who can rescue us first!
 
-#format:italic #portrait: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_smile
+#format:italic #portrait: none #speaker:none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_smile
 I exchanged glances with Freya and Delia to gauge their reactions. In response, Freya simply shrugged.
 
-#format:none #portrait: freya #speaker: young_freya_neutral
+#format:none #portrait: freya #speaker: young_freya_neutral #speaker-cl: none #speaker-cr: none
 Sounds like fun. It will give me a chance to hone my scouting skills.
 
 #format:italic #portrait: none
@@ -179,7 +178,7 @@ I nodded in agreement.
 #format:none #portrait: victoria
 Yes, that sounds entertaining. Our gardens are vast, so we can play far from where Father and Uncle Claudius are enjoying their game. We can easily fetch refreshments from Edith when needed.
 
-#format:none #portrait: dolores #speaker: young_dolores_excited
+#format:none #portrait: dolores #speaker: young_dolores_neutral
 Splendid!
 
 Lead the way, Victoria.
@@ -223,7 +222,7 @@ Wherever that may be.
 Then, after a minute, you two will have to come find and save us.
 
 #format:none #portrait: freya #speaker: young_freya_snarky
-So…Sardines.
+So… Sardines.
 
 #format:none #portrait: dolores #speaker: young_dolores_pout
 Will you two please use your imaginations? It is not Sardines!
@@ -237,29 +236,31 @@ Will you two please use your imaginations? It is not Sardines!
 	#format:italic #bg:morgan_manor_clearing  #portrait: none
 	We finally walked enough to find a clearing, further from the gardens.
 
-	#format:none #portrait: dolores #speaker dolores_neutral
+
+
+	#format:none #portrait: dolores #speaker: young_dolores_neutral
 	Okay, I think this is far enough.
 
 	Victoria, Freya, stay here and count to sixty. No cheating!
 
 	Delia, come with me~
 
-	#format:italic #portrait: none #speaker-cl: young_dolores_excited #speaker-cr: young_delia_smile
+	#format:italic #portrait: none #speaker: none #speaker-cl: young_dolores_excited #speaker-cr: young_delia_smile
 	Dolores grabbed Delia’s hand and started to back away from us.
 
 	I rolled my eyes, but her energy was contagious and I couldn’t help but crack a smile.
 
 	#format:none #portrait: victoria
-	Alright, alright, we’ll be here. Please don’t break anything and get me in trouble while you’re hiding-
+	Alright, alright, we’ll be here. Please don’t break anything and get me in trouble while you’re hiding.
 
-	#format:none #portrait: dolores #speaker: young_dolores_pout
-	Getting kidnapped,
+	#format:none #portrait: dolores #speaker-cl:none #speaker-cr:none #speaker: young_dolores_pout
+	Getting kidnapped!
 
 	#format:none #portrait: victoria
 	Okay, getting kidnapped.
 
 	#format:none #portrait: dolores #speaker: young_dolores_excited
-	I won’t! I promise
+	I won’t! I promise!
 
 #format:italic #portrait: none #speaker: young_freya_shrug
 With that, Freya and I turned our backs and started counting to sixty aloud. I could hear the rustling of footsteps behind me as Delia and Dolores executed their elaborate ‘kidnapping’ scheme. 
@@ -307,51 +308,54 @@ It wasn’t Dolores, but Father and Uncle Claudius engaged in an animated game o
 
 Not wanting to interrupt their game, I began to leave, until my name came up in their conversation. I heard Uncle Claudius’ voice carrying across the garden.
 
-	#format:none #portrait: claudius_young #speaker: young_claudius_smile
+->debug_point
+===debug_point===
+	#format:none #portrait: young_claudius #speaker: young_claudius_smile
 	Victoria’s such a dear now, isn’t she? She’s still very young, but she’s already starting to look more and more like her mother.
 
-	#format:none #portrait: mathias #speaker-cl: mathias_smile #speaker-cr: young_claudius_neutral
+	#format:none #portrait: mathias #speaker:none #speaker-cl: mathias_smile #speaker-cr: young_claudius_neutral
 	She is, isn’t she? I’m always worried it’s a little lonely for her here at the Morgan Manor, but she’s a champ. I’m glad she has Freya and Delia.
 
-	#format:none #portrait: claudius_young #speaker-cl: mathias_neutral #speaker-cr: young_claudius_neutral
+	#format:none #portrait: young_claudius #speaker-cl: mathias_neutral
 	Yes, well, Victoria will not have to worry about a thing with my daughters by her side. I’ve been training them to be warriors, and warriors they shall be.
 	
-#format:none #portrait: mathias #speaker-cl: mathias_concerned #speaker-cr: young_claudius_neutral
+#format:none #portrait: mathias #speaker-cl: mathias_concerned
 You’re training them already? At this age, Claudius?
 
-	#format:none #portrait: claudius_young #speaker-cl: mathias_concerned #speaker-cr: young_claudius_neutral
+	#format:none #portrait: young_claudius
 I was as well, back in the day when I had relentless training to become Van Helsing. I’m preparing them for a monster attack, should it happen. Their training is not even half as challenging as mine when I was their age.
 
-	#format:none #portrait: mathias #speaker-cl: matthias_concerned #speaker-cr: young_claudius_neutral
+	#format:none #portrait: mathias
 	I think they should be allowed to have the childhood we never had. They’re still young, Cloudy. 
 
 Times are different now, I’ve seen it myself. There’s no need to be paranoid and anticipate an attack every other day.
 
-#format:none #portrait: claudius_young #speaker-cl: mathias_concerned #speaker-cr: young_claudius_neutral
+#format:none #portrait: young_claudius #speaker-cr: young_claudius_surprised
 Paranoid? We’ve lost so many people in the past years, and you think being prepared is paranoia? 
 
+#speaker-cr: young_claudius_neutral
 I cannot believe this is the mentality you have after taking the Van Helsing title from right under my nose.
 
-#format:none #portrait: mathias #speaker: matthias_sad
-Claudius…I had no choice, I thought you understood.
+#format:none #portrait: mathias 
+Claudius… I had no choice, I thought you understood.
 
-#format:none #portrait: claudius_young #speaker-cl: matthias_sad #speaker-cr: young_claudius_neutral
+#format:none #portrait: young_claudius
 You wanted to make things right because of Virelai, yes?
 
-#format:none #portrait: mathias #speaker-cl: mathias_sad #speaker-cr: young_claudius_neutral
+#format:none #portrait: mathias #speaker-cl: mathias_sad
 Yes, it was my fault.
 
-#format:none #portrait: claudius_young #speaker-cl: mathias_sad #speaker-cr: young_claudius_surprised
+#format:none #portrait: young_claudius #speaker-cr: young_claudius_surprised
 Matt, what happened to your wife was unfortunate, but it was a natural occurrence that had nothing to do with monsters. 
 
 Her sickness would have consumed her regardless, and you were right to think that it’s better to be safe than sorry.
 
-#format:none #portrait: mathias #speaker-cl: mathias_sad #speaker-cr: young_claudius_neutral
-No, that woman was saving her…making her better. 
+#format:none #portrait: mathias #speaker-cr: young_claudius_neutral
+No, that woman was saving her… making her better. 
 
-I had to become Van Helsing to atone…the least I could do was give her a sanctuary in the woods-
+I had to become Van Helsing to atone… the least I could do was give her a sanctuary in the woods-
 
-#format:none #portrait: claudius_young #speaker-cl: mathias_sad #speaker-cr: young_claudius_surprised
+#format:none #portrait: young_claudius #speaker-cr: young_claudius_neutral
 You gave sanctuary to a vamp-
 
 #format:italic #portrait: none
@@ -359,18 +363,19 @@ Intrigued by their conversation, I leaned in further, my curiosity getting the b
 
 However, in my eagerness to eavesdrop, I lost my balance and tripped over a hidden root. I let out an embarrassed yelp as I tumbled forward, landing awkwardly in front of them. 
 
+#speaker-cr: young_claudius_smile
 Uncle Claudius halted mid-sentence, his eyes widening in surprise. He exchanged a bemused glance with Father before sighing. I quickly dusted myself off, my cheeks flushed with embarrassment. 
 
-#format:none #portrait: victoria #speaker-cl: mathias_neutral #speaker-cr: young_claudius_surprised
+#format:none #portrait: victoria #speaker-cl: mathias_neutral
 
 Sorry…
 
 I…I was searching for Dolores, and I didn’t mean to interrupt your game or conversation.
 
-#format:italic #portrait: none #speaker: mathias_smile
+#format:italic #portrait: none #speaker-cl: mathias_smile
 Father approached me with a warm smile, but there was a flicker of concern in his eyes. It seemed he was trying to gauge how much I overheard.
 
-#format:none #portrait: mathias #speaker: mathias_smile
+#format:none #portrait: mathias
 No harm done, Victoria. 
 
 You’re always welcome to join us, but we don’t want to keep you from your game with Dolores and the others.
@@ -380,13 +385,13 @@ As I was about to respond, Edith approached hastily with a stranger in tow. Desp
 
 Father noticed my gaze and gently pushed me towards Uncle Claudius as soon as he saw the man. 
 
-#format:none #portrait: cloaked_man #speaker: cloaked_man
+#format:none #portrait: cloaked_man #speaker-cl:none #speaker-cr:none #speaker: cloaked_man
 A word, sir.
 
-#format:italic #portrait: none #speaker-cl: mathias_concerned #speaker-cr: cloaked_man
+#format:italic #portrait: none #speaker:none #speaker-cl: mathias_concerned #speaker-cr: cloaked_man
 Father nodded and approached the cloaked man, leaning in to listen as the man whispered something into his ear. I noticed Father’s expression darkened for a brief moment before he turned to address Uncle Claudius and me.
 
-#format:none #portrait: mathias #speaker: mathias_neutral
+#format:none #portrait: mathias #speaker: mathias_neutral #speaker-cl:none #speaker-cr: none
 Victoria, Claudius, I’m sorry, but an urgent matter has arisen; I'll have to cut our conversation short.
 
 #format:none #portrait: victoria
@@ -408,6 +413,7 @@ I nodded, watching him depart, a sense of mystery and concern lingering in the a
 ->post_flashback
 ===post_flashback===
 
+#speaker: none #speaker-cl: none #speaker-cr: none #bg: intro_carriage
 Delia, Dolores, and Freya. The three girls seemed more like imaginary friends than friends of my childhood, for the years away distanced them from me. 
 
 Several years ago, at the behest of my father, I was sent on a six week voyage across the sea to study at St. Michael’s Preparatory. It is a boarding school for the nobility, and a notable safe haven from monsters. 
