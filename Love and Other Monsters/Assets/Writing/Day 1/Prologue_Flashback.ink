@@ -1,6 +1,7 @@
 INCLUDE ../globals.ink
 ~ current_scene = "PrologueFlashback"
 
+->flashback
 #format:italic #bg: intro_carriage
 Within the confines of my carriage, I feel more asleep than awake. Cities and towns; farmhouses and fields; woods and mountains all drift before my weary eyes. 
 
@@ -42,7 +43,7 @@ Nevertheless, sleep still beckons me to follow it a little while longer.
 
 ->flashback
 ===flashback===
-#format:none #bg:victorias_bedroom #speaker: mathias_neutral #portrait: mathias
+#format:none #bg:victorias_bedroom #speaker: mathias_smile #portrait: mathias
 Victoria, our esteemed guests have arrived! 
 
 #format:italic #portrait: none
@@ -65,46 +66,45 @@ Her tone carried the wisdom of years of service. I pouted in response before rep
 #format:none #portrait: victoria
 But I had no idea it would take this long to get dressed. I thought that wearing trousers would speed things up compared to donning a dress.
 
-#format:none #portrait: edith #speaker: edith_neutral
+#format:none #portrait: edith #speaker: edith_gossiping
 Indeed, it’s a bit different, but there’s still your hair and corset to attend to, ensuring that everything is just right.
 
-#format:italic #portrait: none
+#format:italic #portrait: none #speaker: none
 	After a series of clothespins, braiding, and rustling fabric, Edith finally released me, allowing me to dash out of my chamber. 
 
 I raced down the grand staircase to reach Father, who stood by the open doors with his hands extended in greeting. I followed his gaze to the sight of Uncle Claudius, Freya, and Delia disembarking from their carriage.
 
 An eager greeting formed on my lips, but I recalled Edith's counsel from earlier. I cleared my throat and straightened my posture, offering a respectful bow instead. 
-	
+->claudius_arrival
+===claudius_arrival===
 #format:none #bg:morgan_manor_front  #portrait: victoria #speaker-cl: young_claudius_smile #speaker: young_freya_neutral #speaker-cr: young_delia_neutral
 	Uncle Claudius, Freya, Delia, you've arrived.
 
 	#format:none #portrait: mathias
 
-Ah, Claudius, Freya, and Delia.
+    Ah, Claudius, Freya, and Delia.
 
 	#format:italic #portrait: none #speaker-l: mathias_smile
 	Father echoed my words with a hint of laughter in his voice as he tousled my hair. 
 	
-#format:none #portrait: young_victoria
+#format:none #portrait: victoria
 	Father! Edie worked so hard on my hair.
 
 #format:italic #portrait: none
 I protested and attempted to smooth down my ruffled locks.
 
-#format:italic #portrait: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
+#format:italic #portrait: none #speaker: none #speaker-l: none #speaker-cl: young_freya_neutral #speaker-cr: young_delia_neutral
 Freya and Delia acknowledged our presence with a nod, while Uncle Claudius and Father exchanged their secret handshake—a ritual shrouded in the camaraderie of years past. 
 
 As Father invited Uncle Claudius indoors, Freya, Delia, and I lingered by the entrance to the manor.
 
-#format:none #portrait: young_victoria
+#format:none #portrait: victoria
 Have you seen Dolores?
 
-#format:none #portrait: delia #speaker: young_delia_neutral
-Not yet, but you know Dolores. 
+#format:none #portrait: delia
+Not yet, but you know Dolores. She’ll appear when we least expect her. She’s bound to show up, I’m sure.
 
-She’ll appear when we least expect her. She’s bound to show up, I’m sure.
-
-#format:italic #portrait: none #speaker-cl: young_delia_neutral #speaker-cr: young_freya_neutral
+#format:italic #portrait: none
 Delia shook her head and spoke in her usual gentle tone as Freya shook her head as well, reaffirming Delia’s words.
 
 I chuckled, acknowledging the unpredictable nature of our friend.
