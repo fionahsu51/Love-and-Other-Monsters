@@ -1,5 +1,6 @@
-Gameplay demo developed in Unity during our undergrad studies at UCSC. 
+Gameplay demo developed in Unity during our undergrad studies at UCSC. Full game is currently in development.
 
+#Synopsis
 Upon the death of her father, Victoria Medrano is summoned back to her family’s illustrious mansion in Carpathia, in order to claim her inheritance. The bonds she forges with her companions, new and old, will unlock the secrets hiding within her childhood town.
 
 Encounter three enigmatic women who each have their eye on you.
